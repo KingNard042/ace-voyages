@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter, Manrope, Satisfy } from 'next/font/google'
 import './globals.css'
+import Navbar from '@/components/layout/Navbar'
+import Footer from '@/components/layout/Footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -34,7 +36,11 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${manrope.variable} ${satisfy.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </body>
     </html>
   )
 }

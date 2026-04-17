@@ -138,7 +138,7 @@ export default function HomePage() {
             Your Journey Awaits
           </p>
           <h1
-            className="mt-3 max-w-2xl text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl"
+            className="mt-3 max-w-2xl text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl xl:text-6xl"
             style={{ fontFamily: 'var(--font-manrope, Manrope, sans-serif)' }}
           >
             Explore the World,
