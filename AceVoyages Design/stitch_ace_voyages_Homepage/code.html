@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Satisfy&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#001c38",
+                    "on-primary-container": "#fffeff",
+                    "secondary-fixed-dim": "#ffb77f",
+                    "on-secondary-fixed-variant": "#6f3900",
+                    "on-secondary-container": "#6c3700",
+                    "error": "#ba1a1a",
+                    "tertiary-container": "#4778b1",
+                    "tertiary-fixed-dim": "#a2c9ff",
+                    "primary-container": "#3778be",
+                    "on-surface": "#1a1c1c",
+                    "on-tertiary-container": "#fffeff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-dim": "#dadada",
+                    "primary": "#105fa3",
+                    "surface-tint": "#1360a5",
+                    "on-primary-fixed": "#001c38",
+                    "on-tertiary-fixed-variant": "#06487f",
+                    "secondary-container": "#ff9b43",
+                    "primary-fixed-dim": "#a2c9ff",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-error-container": "#93000a",
+                    "outline": "#727782",
+                    "surface-container-high": "#e8e8e8",
+                    "outline-variant": "#c1c7d2",
+                    "on-error": "#ffffff",
+                    "secondary-fixed": "#ffdcc4",
+                    "on-surface-variant": "#414751",
+                    "on-primary-fixed-variant": "#004881",
+                    "surface-bright": "#f9f9f9",
+                    "surface-variant": "#e2e2e2",
+                    "inverse-primary": "#a2c9ff",
+                    "on-secondary-fixed": "#2f1500",
+                    "inverse-surface": "#2f3131",
+                    "tertiary": "#2b5f97",
+                    "on-primary": "#ffffff",
+                    "inverse-on-surface": "#f1f1f1",
+                    "surface-container-low": "#f3f3f3",
+                    "background": "#f9f9f9",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "on-background": "#1a1c1c",
+                    "surface": "#f9f9f9",
+                    "primary-fixed": "#d3e4ff",
+                    "tertiary-fixed": "#d3e4ff",
+                    "surface-container": "#eeeeee",
+                    "secondary": "#914c00"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.5rem",
+                    "lg": "0.75rem",
+                    "xl": "1rem",
+                    "2xl": "1.5rem",
+                    "3xl": "2rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"],
+                    "accent": ["Satisfy"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md shadow-xl shadow-blue-900/5">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<span class="text-2xl font-extrabold tracking-tighter text-blue-800 font-manrope">ACE Voyages</span>
+<div class="hidden md:flex items-center gap-8 font-manrope text-sm font-semibold tracking-tight">
+<a class="text-slate-600 hover:text-blue-600 transition-all duration-300" href="#">Home</a>
+<div class="relative dropdown group">
+<button class="flex items-center gap-1 text-slate-600 hover:text-blue-600 transition-all duration-300">
+                        Services
+                        <span class="material-symbols-outlined text-xs" data-icon="expand_more">expand_more</span>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full pt-4">
+<div class="bg-white rounded-xl shadow-2xl border border-slate-100 py-2 w-48 overflow-hidden">
+<a class="block px-4 py-2.5 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors" href="#">Flights</a>
+<a class="block px-4 py-2.5 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors" href="#">Visas</a>
+<a class="block px-4 py-2.5 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors" href="#">Tours</a>
+</div>
+</div>
+</div>
+<a class="text-slate-600 hover:text-blue-600 transition-all duration-300" href="#">Blog</a>
+<a class="text-slate-600 hover:text-blue-600 transition-all duration-300" href="#">About Us</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-slate-600 font-semibold text-sm hover:opacity-80 transition-all">Sign In</button>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-xl font-bold text-sm shadow-lg shadow-primary/20 hover:scale-95 active:duration-75 transition-all">Book Now</button>
+</div>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex items-center px-6 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="Modern luxury jet wing over a vibrant sunset horizon with soft orange and blue gradients reflecting on the clouds" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBInOvfCoWHyeswC-KGIuM5Um310cSlVdEVQI5htrPVzChifz78vQ3cgKYIWdQSvOv-qlM2FRaG7am6l5JzX-nKZK5eOg0mJI0NipCSfo7g_hTRl0xeluiIGs_rIkuEDDlYcIyGTUaLinOpZnHHpzFTx84x0cZfWEZJUJfeFwrc5nI8S9urUdhmO_a6tv6ZQ0Vc_kCvWBDyt9dpKpCYePIjbeGj2QR-2fRTv5Zl3kRfi8_AKzO3n1M0hvBXa5wibfxUuoecBWAZnJC"/>
+<div class="absolute inset-0 bg-gradient-to-r from-white/60 via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<span class="font-accent text-secondary text-3xl block">Your Journey Awaits</span>
+<h1 class="text-5xl md:text-7xl font-headline font-extrabold text-on-surface leading-tight tracking-tight">
+                        Explore the World <br/> with <span class="text-primary">ACE Voyages</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-lg leading-relaxed">
+                        Curating bespoke travel experiences that blend global luxury with the heart of Nigerian hospitality. Where do you want to go next?
+                    </p>
+</div>
+<!-- Search Widget -->
+<div class="glass-panel p-8 rounded-[2rem] shadow-2xl shadow-on-surface/5 border border-white/50">
+<div class="flex gap-4 mb-8">
+<button class="flex items-center gap-2 px-4 py-2 bg-primary text-on-primary rounded-full text-sm font-semibold">
+<span class="material-symbols-outlined text-[18px]" data-icon="flight">flight</span> Flights
+                        </button>
+<button class="flex items-center gap-2 px-4 py-2 hover:bg-surface-container text-on-surface-variant rounded-full text-sm font-semibold transition-all">
+<span class="material-symbols-outlined text-[18px]" data-icon="hotel">hotel</span> Hotels
+                        </button>
+<button class="flex items-center gap-2 px-4 py-2 hover:bg-surface-container text-on-surface-variant rounded-full text-sm font-semibold transition-all">
+<span class="material-symbols-outlined text-[18px]" data-icon="description">description</span> Visas
+                        </button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider px-1">Departure</label>
+<div class="bg-surface-container-high rounded-xl p-3 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="flight_takeoff">flight_takeoff</span>
+<input class="bg-transparent border-none focus:ring-0 w-full font-semibold" placeholder="Lagos (LOS)" type="text"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider px-1">Destination</label>
+<div class="bg-surface-container-high rounded-xl p-3 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="flight_land">flight_land</span>
+<input class="bg-transparent border-none focus:ring-0 w-full font-semibold" placeholder="London (LHR)" type="text"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider px-1">Date</label>
+<div class="bg-surface-container-high rounded-xl p-3 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="calendar_month">calendar_month</span>
+<input class="bg-transparent border-none focus:ring-0 w-full font-semibold" placeholder="Oct 24, 2024" type="text"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider px-1">Passengers</label>
+<div class="bg-surface-container-high rounded-xl p-3 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="person">person</span>
+<input class="bg-transparent border-none focus:ring-0 w-full font-semibold" placeholder="2 Adults" type="text"/>
+</div>
+</div>
+</div>
+<button class="w-full mt-8 bg-gradient-to-r from-secondary to-secondary-container text-on-primary py-4 rounded-xl font-bold text-lg shadow-xl shadow-secondary/20 hover:scale-[0.98] transition-all">
+                        Search Best Deals
+                    </button>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-headline font-extrabold text-on-surface mb-4">The Digital Concierge Experience</h2>
+<div class="w-20 h-1.5 bg-secondary mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="bg-surface-container-low p-10 rounded-[2rem] border-b-4 border-primary transition-transform hover:-translate-y-2">
+<div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="verified_user">verified_user</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Visa Assistance</h3>
+<p class="text-on-surface-variant leading-relaxed">Our experts handle the complexity of global visa processes, ensuring high success rates for Nigerian travelers.</p>
+</div>
+<div class="bg-surface-container-low p-10 rounded-[2rem] border-b-4 border-secondary transition-transform hover:-translate-y-2">
+<div class="w-14 h-14 bg-secondary/10 rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="payments">payments</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Competitive Pricing</h3>
+<p class="text-on-surface-variant leading-relaxed">We leverage direct partnerships with airlines and hotels to bring you exclusive rates you won't find anywhere else.</p>
+</div>
+<div class="bg-surface-container-low p-10 rounded-[2rem] border-b-4 border-tertiary transition-transform hover:-translate-y-2">
+<div class="w-14 h-14 bg-tertiary/10 rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-tertiary text-3xl" data-icon="diamond">diamond</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Curated Expertise</h3>
+<p class="text-on-surface-variant leading-relaxed">Every destination in our catalog is hand-picked and vetted for quality, safety, and cultural richness.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Tours (Bento Style) -->
+<section class="py-24 bg-surface-container-low rounded-t-[3rem]">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-12">
+<div>
+<span class="text-secondary font-bold tracking-widest uppercase text-xs">Featured Destinations</span>
+<h2 class="text-4xl font-headline font-extrabold text-on-surface mt-2">Trending Packages</h2>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all">
+                        View All Destinations <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 min-h-[600px]">
+<!-- Large Card: Dubai -->
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-[2.5rem]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Panoramic view of Dubai skyline with the Burj Khalifa at night, illuminated by city lights reflecting on water" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfxXuGZiROwF4U3FtgBYUj8hMcIwqzseRwfe6Zw9yEM1b4Y9GtjsMyI-Qy1QZdXHz4tM5TUq6lceCmnBFZg4myH2TPs2ugtYJYGVnSbuC15FYiwgOGuL31oJuGYdm27CUd1p4Jj00DEld3okwii2i6AR2JROSvSF88jj3QVs01dGNdqn579SPVIPiC3qtk4F1R4_N0hOoy0YD0YEUWkyz7PP4KbO-vS5ygq3oQR_9NIqMaxfwqvtYkpsErXVZr9Vzrxe1zfxtOCpqR"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-0 p-10 w-full text-white">
+<div class="flex justify-between items-end">
+<div>
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold mb-3 inline-block">7 Days / 6 Nights</span>
+<h3 class="text-3xl font-headline font-bold">Luxe Dubai Escape</h3>
+<p class="text-white/80 mt-2">Private desert safaris &amp; sky-high dining</p>
+</div>
+<div class="text-right">
+<p class="text-sm opacity-80">Starting at</p>
+<p class="text-3xl font-bold">₦1.2M</p>
+</div>
+</div>
+<button class="mt-6 bg-white text-primary px-8 py-3 rounded-xl font-bold hover:bg-primary hover:text-white transition-all">View Details</button>
+</div>
+</div>
+<!-- London -->
+<div class="md:col-span-2 relative group overflow-hidden rounded-[2.5rem]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Classic London street scene with a red bus passing Big Ben and the Houses of Parliament under a clear sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBboURm5AsrwKnjy-UjfCZSvoJeKcv3-8G2yMX2iU1fKvrF0gz5NG5xrvodZFl3qQd-LeDM4eowhygMM-h-Sk4Tj-HLRDwQvT-YejrNbpw7QGLahOvg6YYI0ywBgyKfAyKEwVgWPgAX7Hf4soIX8E2J2HfiqjRFi99VsXjhL49UOKIiGYz_ByP24kTc_ooyoSP3JVGtfdKF_lyf3EoTPBuHQU8aUtDbZwDZ_VV5fY9PmPoc_HOeVj5Xcx1Mun-q3XN5Y1ntvGHlVKtY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-0 p-8 w-full text-white flex justify-between items-center">
+<div>
+<h3 class="text-2xl font-bold">London Explorer</h3>
+<p class="text-sm opacity-80">From ₦850k</p>
+</div>
+<button class="bg-white/20 backdrop-blur-md p-3 rounded-full hover:bg-white/40 transition-all">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Nairobi -->
+<div class="md:col-span-1 relative group overflow-hidden rounded-[2.5rem]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Vast Kenyan savannah at sunrise with a lone acacia tree silhouetted against a golden sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyxihxuuY2n99lRCkJl6O_wQTkysqGgmQWOc51gt9sFuOi-Kabt2oBk7pbJvYHU4eXe1vxSCDGHPqQCpo9wKFLyNYp5m4ioiAQSm6VvSc3rjNl-A9MvYVwqTtlVuG_aiRfPiqhAamDcUmUAhl7Ij6W3NkLnRgJhJk7HbtuIeFq_L8yUZDn7l9sPl-oH5JmTnc802hJgKpExWIuET3TjGESXPgL44WLxbC9afjkLB72PDCW8rynT-WWG0yN3nVWbYjtswxrhPBvksfI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-0 p-6 w-full text-white">
+<h3 class="text-xl font-bold">Nairobi Safari</h3>
+<p class="text-sm opacity-80">From ₦450k</p>
+</div>
+</div>
+<!-- Zanzibar -->
+<div class="md:col-span-1 relative group overflow-hidden rounded-[2.5rem]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Turquoise waters of Zanzibar beach with white sand and traditional wooden dhow boats floating peacefully" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDltibuE9oVOoNbjzR8psAWVbTpf7IdyYgjbXW_llFjeIbj96c4NwINGr1BHhJCN1QVphVCPsziJTGTCg1aXnr64EjdK8SSpeBN1AxgK8oGRocODSVP3jdCcn3fcpANtrv1bL92VS8_m3yhB17P1KrYKlc2drvMxy_FI53wRwiuc8x4yUIXnuJIGMOKJmR9wumORBUEl_zo5uaGRj1cLoXt5Fv43jrSb-8p6hfV3Bg3Dor3VzA8zy05iDB1ncx45O5lbsBvFiW6nx9p"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-0 p-6 w-full text-white">
+<h3 class="text-xl font-bold">Zanzibar Shores</h3>
+<p class="text-sm opacity-80">From ₦520k</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+<div class="lg:col-span-1">
+<span class="text-primary font-bold">Our Travelers</span>
+<h2 class="text-4xl font-headline font-extrabold text-on-surface mt-2 mb-6">Real Stories, Real Journeys</h2>
+<p class="text-on-surface-variant leading-relaxed mb-8">Join thousands of Nigerians who have discovered the world with our specialized concierge service.</p>
+<div class="flex gap-2">
+<span class="material-symbols-outlined text-secondary" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="ml-2 font-bold">4.9/5 Rating</span>
+</div>
+</div>
+<div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-surface-container-highest p-8 rounded-[2rem] shadow-sm italic">
+<p class="text-on-surface mb-6">"ACE Voyages made our family vacation to London completely stress-free. From visa processing to hotel transfers, every detail was perfect. Truly the best in Nigeria!"</p>
+<div class="flex items-center gap-4">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of a smiling Nigerian woman in professional attire against a blurred city background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6kVgCrojgWqDFx_XnWeEI-txir1VICj66U2VhMHcd5zNJnHZmdb7TgzcSWTOYwWpnZr3K4NtwtEKpFtH7iK9L0L-FBM-S_j1nOCt2ihBWX0gdbVwXQHtXYUElO9ePLbS2zk9XY0Jc8EiN6eJAJgBE9KVcSxXooXRJNewyD2Vmsuz0XV7GxDsBnQ5RNnfA6sv6j5Kya_Q1mNFyNTUxQ9Hbh9St2PfZJyiOqUx8-bAaB-n-sFmluHzpuUpEX93lMQFE0f8TEDbsUiNh"/>
+<div>
+<h4 class="font-bold not-italic">Chioma Adeyemi</h4>
+<p class="text-xs not-italic text-on-surface-variant">Lagos, Nigeria</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-8 rounded-[2rem] shadow-sm italic">
+<p class="text-on-surface mb-6">"The Dubai package was worth every kobo. The private tour guide they provided was knowledgeable and friendly. Highly recommend their personalized service."</p>
+<div class="flex items-center gap-4">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of a middle-aged Nigerian man with a friendly expression wearing a casual collared shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnTVnvSNxcS_z3oL8XFdZfukOD3kGDkQ23vyxsRgB0xq20VF_wCZBuh2YZ62NyJQbaSxvuSC9I9aug3fqTolvIQpac6rOpcjAhE2Q8eKT7z4jrfFRneon5DC8gNwVkiK6Z4nHeRUNPR5eFxIN9CLJqFZKvsxHjBMBIQJk1Z6Tr_N53Fw4I38IktD-gbURDioO4X5SUEOSb53syDHeAtJ3At-aDzmFZOrtrvZOaEJipI3MCbPt8GZJhbKnrYzpQv0Dxch4PpIqA32J_"/>
+<div>
+<h4 class="font-bold not-italic">Emeka Okoro</h4>
+<p class="text-xs not-italic text-on-surface-variant">Abuja, Nigeria</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter / CTA -->
+<section class="py-20 px-6">
+<div class="max-w-7xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 relative overflow-hidden text-center text-on-primary">
+<div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 bg-secondary/20 rounded-full blur-3xl"></div>
+<h2 class="text-3xl md:text-5xl font-headline font-extrabold mb-6">Ready to write your next chapter?</h2>
+<p class="text-lg opacity-90 max-w-2xl mx-auto mb-10 leading-relaxed">Subscribe to our newsletter for exclusive travel deals, visa updates, and destination inspiration delivered straight to your inbox.</p>
+<div class="max-w-md mx-auto flex flex-col md:flex-row gap-4">
+<input class="flex-grow bg-white/20 border-white/30 rounded-xl px-6 py-4 placeholder:text-white/60 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none" placeholder="Your email address" type="email"/>
+<button class="bg-secondary text-on-primary px-8 py-4 rounded-xl font-bold hover:bg-secondary-container transition-all">Join ACE Club</button>
+</div>
+</div>
+</section>
+<!-- Latest from our Blog Section -->
+<section class="py-24 bg-surface border-t border-slate-100">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-12">
+<div>
+<span class="text-primary font-bold tracking-widest uppercase text-xs">ACE Chronicles</span>
+<h2 class="text-4xl font-headline font-extrabold text-on-surface mt-2">Latest from our Blog</h2>
+</div>
+<button class="text-secondary font-bold flex items-center gap-2 hover:gap-3 transition-all">
+                        Read All Articles <span class="material-symbols-outlined" data-icon="open_in_new">open_in_new</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Blog Post 1 -->
+<article class="group cursor-pointer">
+<div class="relative aspect-[4/3] rounded-3xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Nigerian traveler looking at a map in a picturesque European village" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArS0vY6I2GZ_9j3f5p7D4I7J2z3T4R5W6Q7V8X9Y0Z1A2B3C4D5E6F7G8H9I0J"/>
+<div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-primary">Travel Tips</div>
+</div>
+<h3 class="text-xl font-bold group-hover:text-primary transition-colors mb-3">Top 10 Visa-Free Destinations for Nigerians in 2024</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">Discover beautiful countries you can visit without the hassle of advance visa applications...</p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-200"></div>
+<span class="text-xs font-semibold text-slate-500">Oct 12, 2024 • 5 min read</span>
+</div>
+</article>
+<!-- Blog Post 2 -->
+<article class="group cursor-pointer">
+<div class="relative aspect-[4/3] rounded-3xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Luxury resort breakfast spread with a view of crystal clear ocean" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrS0vY6I2GZ_9j3f5p7D4I7J2z3T4R5W6Q7V8X9Y0Z1A2B3C4D5E6F7G8H9I0J"/>
+<div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-secondary">Guides</div>
+</div>
+<h3 class="text-xl font-bold group-hover:text-primary transition-colors mb-3">The Ultimate Guide to Luxury Dining in Dubai</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">From underwater restaurants to cloud-nine dining, we've curated the best spots for your palate...</p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-200"></div>
+<span class="text-xs font-semibold text-slate-500">Oct 08, 2024 • 8 min read</span>
+</div>
+</article>
+<!-- Blog Post 3 -->
+<article class="group cursor-pointer">
+<div class="relative aspect-[4/3] rounded-3xl overflow-hidden mb-6">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Couple enjoying a private safari tour in Kenya" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrS0vY6I2GZ_9j3f5p7D4I7J2z3T4R5W6Q7V8X9Y0Z1A2B3C4D5E6F7G8H9I0J"/>
+<div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider text-tertiary">Experience</div>
+</div>
+<h3 class="text-xl font-bold group-hover:text-primary transition-colors mb-3">Planning the Perfect Honeymoon Safari in Kenya</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">Everything you need to know about combining adventure with romance in the heart of the wild...</p>
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-200"></div>
+<span class="text-xs font-semibold text-slate-500">Sep 29, 2024 • 6 min read</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 border-t-0 rounded-t-[3rem]">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-20 max-w-7xl mx-auto">
+<div class="space-y-6">
+<span class="text-2xl font-bold text-blue-800 font-manrope">ACE Voyages</span>
+<p class="text-slate-500 text-sm leading-relaxed">Elevating Nigerian Travel with premium experiences, reliable visa solutions, and unbeatable value.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-surface-container flex items-center justify-center rounded-full text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined" data-icon="facebook">social_leaderboard</span></a>
+<a class="w-10 h-10 bg-surface-container flex items-center justify-center rounded-full text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined" data-icon="language">language</span></a>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-slate-800">Quick Links</h4>
+<ul class="space-y-4 font-inter text-sm">
+<li><a class="text-slate-500 hover:text-orange-600 hover:translate-x-1 transition-transform inline-block" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-500 hover:text-orange-600 hover:translate-x-1 transition-transform inline-block" href="#">Terms of Service</a></li>
+<li><a class="text-slate-500 hover:text-orange-600 hover:translate-x-1 transition-transform inline-block" href="#">Contact Us</a></li>
+<li><a class="text-slate-500 hover:text-orange-600 hover:translate-x-1 transition-transform inline-block" href="#">FAQs</a></li>
+<li><a class="text-slate-500 hover:text-orange-600 hover:translate-x-1 transition-transform inline-block" href="#">Travel Insurance</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-slate-800">Popular Services</h4>
+<ul class="space-y-4 font-inter text-sm">
+<li class="text-slate-500">Corporate Travel</li>
+<li class="text-slate-500">Honeymoon Packages</li>
+<li class="text-slate-500">Flight Booking</li>
+<li class="text-slate-500">Global Visas</li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-slate-800">Head Office</h4>
+<p class="text-slate-500 text-sm leading-relaxed mb-4">
+                    Victoria Island, Lagos, Nigeria<br/>
+                    support@acevoyages.com<br/>
+                    +234 (0) 800 ACE TRAVEL
+                </p>
+<button class="bg-surface-container-high px-4 py-2 rounded-lg text-primary text-xs font-bold hover:bg-primary hover:text-white transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px]" data-icon="location_on">location_on</span> Find on Map
+                </button>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-slate-200">
+<p class="text-center font-inter text-sm text-slate-500">© 2024 ACE Voyages. Elevating Nigerian Travel.</p>
+</div>
+</footer>
+</body></html>
