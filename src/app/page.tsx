@@ -18,6 +18,8 @@ import TourCard from '@/components/ui/TourCard'
 import WhatsAppButton from '@/components/ui/WhatsAppButton'
 import FAQAccordion from '@/components/ui/FAQAccordion'
 import NewsletterForm from '@/components/ui/NewsletterForm'
+import { getFeaturedTours, getApprovedTestimonials } from '@/sanity/lib/queries'
+import { urlFor } from '@/sanity/lib/image'
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -56,7 +58,8 @@ const SERVICES = [
   },
 ]
 
-const TOURS = [
+// Fallback data shown until Sanity content is published
+const FALLBACK_TOURS = [
   {
     image: 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
     name: 'Cairo Explorer',
@@ -85,14 +88,7 @@ const TOURS = [
   },
 ]
 
-const WHY_US = [
-  { icon: Users, stat: '1,000+', label: 'Happy Travellers' },
-  { icon: ShieldCheck, stat: '100%', label: 'Transparent Pricing' },
-  { icon: Award, stat: 'Bespoke', label: 'Personalised Planning' },
-  { icon: Zap, stat: '5–15 min', label: 'Booking Confirmation' },
-]
-
-const TESTIMONIALS = [
+const FALLBACK_TESTIMONIALS = [
   {
     name: 'Blessing Okonkwo',
     location: 'Lagos',
@@ -113,9 +109,51 @@ const TESTIMONIALS = [
   },
 ]
 
+const WHY_US = [
+  { icon: Users, stat: '1,000+', label: 'Happy Travellers' },
+  { icon: ShieldCheck, stat: '100%', label: 'Transparent Pricing' },
+  { icon: Award, stat: 'Bespoke', label: 'Personalised Planning' },
+  { icon: Zap, stat: '5–15 min', label: 'Booking Confirmation' },
+]
+
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
-export default function HomePage() {
+export default async function HomePage() {
+  // Fetch from Sanity; fall back to hardcoded data while CMS is being populated
+  let tours = FALLBACK_TOURS
+  let testimonials = FALLBACK_TESTIMONIALS
+
+  try {
+    const [cmsToursRaw, cmsTestimonialsRaw] = await Promise.all([
+      getFeaturedTours(),
+      getApprovedTestimonials(),
+    ])
+
+    if (cmsToursRaw.length > 0) {
+      tours = cmsToursRaw.map((t) => ({
+        image: t.heroImage
+          ? urlFor(t.heroImage).width(800).quality(80).url()
+          : 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
+        name: t.title,
+        destination: `${t.destination.city}, ${t.destination.country}`,
+        price: t.price,
+        duration: `${t.duration} day${t.duration === 1 ? '' : 's'}`,
+        badge: t.featured ? 'Featured' : undefined,
+        slug: t.slug.current,
+      }))
+    }
+
+    if (cmsTestimonialsRaw.length > 0) {
+      testimonials = cmsTestimonialsRaw.map((t) => ({
+        name: t.customerName,
+        location: t.city ?? 'Nigeria',
+        quote: t.quote,
+      }))
+    }
+  } catch {
+    // Sanity not yet configured or no content — hardcoded fallback stays active
+  }
+
   return (
     <>
       {/* ── 1. HERO ─────────────────────────────────────────────────────── */}
@@ -235,7 +273,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {TOURS.map((tour) => (
+            {tours.map((tour) => (
               <TourCard key={tour.slug} {...tour} />
             ))}
           </div>
@@ -291,7 +329,7 @@ export default function HomePage() {
             className="mb-12"
           />
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {TESTIMONIALS.map(({ name, location, quote }) => (
+            {testimonials.map(({ name, location, quote }) => (
               <div
                 key={name}
                 className="flex flex-col gap-4 rounded-2xl bg-white p-6 shadow-[0_4px_24px_rgba(26,28,28,0.05)]"

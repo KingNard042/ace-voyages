@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"require\\('sanity'\\); console.log\\('sanity ok'\\)\")",
+      "Bash(node -e \"require\\('@sanity/vision'\\); console.log\\('vision ok'\\)\")"
+    ]
+  }
+}
