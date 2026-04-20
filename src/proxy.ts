@@ -9,8 +9,11 @@ export async function proxy(request: NextRequest) {
     return NextResponse.next()
   }
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  const supabaseUrl =
+    process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://ynrzvfvcoyliwlnczhtb.supabase.co'
+  const supabaseAnonKey =
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlucnp2ZnZjb3lsaXdsbmN6aHRiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY3MDgzNzcsImV4cCI6MjA5MjI4NDM3N30.X3Vui48bBLK65lnVC29cheT7NkO6jWRr-na3urNvLl0'
 
   let response = NextResponse.next({ request })
 

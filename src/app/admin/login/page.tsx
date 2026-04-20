@@ -3,7 +3,6 @@
 import { Suspense, useState, useEffect } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Eye, EyeOff, Lock, Mail, AlertCircle } from 'lucide-react'
-import { supabase } from '@/lib/supabase/client'
 
 function LoginForm() {
   const router = useRouter()
@@ -27,18 +26,22 @@ function LoginForm() {
     setLoading(true)
 
     try {
-      const { error: authError } = await supabase.auth.signInWithPassword({ email, password })
+      const res = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+      })
 
-      if (authError) {
-        setError('Invalid email or password.')
+      const json = await res.json()
+
+      if (!res.ok) {
+        setError(json.error || 'Login failed. Please try again.')
         return
       }
 
       router.replace('/admin/dashboard')
-    } catch (err) {
-      const msg = err instanceof Error ? err.message : 'Unexpected error. Please try again.'
-      setError(msg)
-      console.error('Login error:', err)
+    } catch {
+      setError('Network error. Please check your connection and try again.')
     } finally {
       setLoading(false)
     }
