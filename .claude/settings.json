@@ -6,7 +6,8 @@
       "Bash(node -e \"require\\('@sanity/vision'\\); console.log\\('vision ok'\\)\")",
       "Bash(node -e \"require\\('@supabase/ssr'\\)\")",
       "Bash(node -e \"require\\('recharts'\\)\")",
-      "Bash(xargs grep *)"
+      "Bash(xargs grep *)",
+      "WebSearch"
     ]
   }
 }
