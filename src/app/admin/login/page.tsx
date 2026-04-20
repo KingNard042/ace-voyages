@@ -26,15 +26,21 @@ function LoginForm() {
     setError(null)
     setLoading(true)
 
-    const { error: authError } = await supabase.auth.signInWithPassword({ email, password })
+    try {
+      const { error: authError } = await supabase.auth.signInWithPassword({ email, password })
 
-    if (authError) {
-      setError('Invalid email or password.')
+      if (authError) {
+        setError('Invalid email or password.')
+        return
+      }
+
+      router.replace('/admin/dashboard')
+    } catch (err) {
+      setError('Something went wrong. Please try again.')
+      console.error('Login error:', err)
+    } finally {
       setLoading(false)
-      return
     }
-
-    router.replace('/admin/dashboard')
   }
 
   return (
