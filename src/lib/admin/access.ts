@@ -38,7 +38,7 @@ export function canAccess(role: AdminRole | null | undefined, feature: AdminFeat
 
 export function getRoleLabel(role: AdminRole): string {
   const labels: Record<AdminRole, string> = {
-    super_admin: 'Super Admin',
+    super_admin: 'Super Administrator',
     manager_admin: 'Manager',
     agent_admin: 'Agent',
   }
