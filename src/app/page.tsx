@@ -18,8 +18,7 @@ import TourCard from '@/components/ui/TourCard'
 import WhatsAppButton from '@/components/ui/WhatsAppButton'
 import FAQAccordion from '@/components/ui/FAQAccordion'
 import NewsletterForm from '@/components/ui/NewsletterForm'
-import { getFeaturedTours, getApprovedTestimonials } from '@/sanity/lib/queries'
-import { urlFor } from '@/sanity/lib/image'
+import { getFeaturedTours, getApprovedTestimonials } from '@/lib/content'
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -58,7 +57,6 @@ const SERVICES = [
   },
 ]
 
-// Fallback data shown until Sanity content is published
 const FALLBACK_TOURS = [
   {
     image: 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
@@ -119,40 +117,32 @@ const WHY_US = [
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default async function HomePage() {
-  // Fetch from Sanity; fall back to hardcoded data while CMS is being populated
-  let tours = FALLBACK_TOURS
-  let testimonials = FALLBACK_TESTIMONIALS
+  const [cmsTours, cmsTestimonials] = await Promise.all([
+    getFeaturedTours(),
+    getApprovedTestimonials(),
+  ])
 
-  try {
-    const [cmsToursRaw, cmsTestimonialsRaw] = await Promise.all([
-      getFeaturedTours(),
-      getApprovedTestimonials(),
-    ])
+  const tours =
+    cmsTours.length > 0
+      ? cmsTours.map((t) => ({
+          image: t.hero_image_url ?? 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
+          name: t.title,
+          destination: `${t.destination_city}, ${t.destination_country}`,
+          price: t.price,
+          duration: `${t.duration_days} day${t.duration_days === 1 ? '' : 's'}`,
+          badge: t.is_featured ? 'Featured' : undefined,
+          slug: t.slug,
+        }))
+      : FALLBACK_TOURS
 
-    if (cmsToursRaw.length > 0) {
-      tours = cmsToursRaw.map((t) => ({
-        image: t.heroImage
-          ? urlFor(t.heroImage).width(800).quality(80).url()
-          : 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
-        name: t.title,
-        destination: `${t.destination.city}, ${t.destination.country}`,
-        price: t.price,
-        duration: `${t.duration} day${t.duration === 1 ? '' : 's'}`,
-        badge: t.featured ? 'Featured' : undefined,
-        slug: t.slug.current,
-      }))
-    }
-
-    if (cmsTestimonialsRaw.length > 0) {
-      testimonials = cmsTestimonialsRaw.map((t) => ({
-        name: t.customerName,
-        location: t.city ?? 'Nigeria',
-        quote: t.quote,
-      }))
-    }
-  } catch {
-    // Sanity not yet configured or no content — hardcoded fallback stays active
-  }
+  const testimonials =
+    cmsTestimonials.length > 0
+      ? cmsTestimonials.map((t) => ({
+          name: t.customer_name,
+          location: t.city ?? 'Nigeria',
+          quote: t.quote,
+        }))
+      : FALLBACK_TESTIMONIALS
 
   return (
     <>
