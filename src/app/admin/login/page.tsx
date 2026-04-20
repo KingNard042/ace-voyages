@@ -36,7 +36,8 @@ function LoginForm() {
 
       router.replace('/admin/dashboard')
     } catch (err) {
-      setError('Something went wrong. Please try again.')
+      const msg = err instanceof Error ? err.message : 'Unexpected error. Please try again.'
+      setError(msg)
       console.error('Login error:', err)
     } finally {
       setLoading(false)
