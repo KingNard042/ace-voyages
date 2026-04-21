@@ -1,13 +1,12 @@
 'use client'
 
-import { useRef, useState, useTransition } from 'react'
+import { useRef, useState } from 'react'
 import Link from 'next/link'
 import {
-  ChevronLeft, Upload, Search, X, Plus, ExternalLink,
+  ChevronLeft, Upload, Search, X, ExternalLink,
   Rocket, Check, Star, Users, Clock,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
-import { uploadTourImage } from './actions'
 import type { FormState, FormUpdater } from './types'
 
 interface Props {
@@ -117,34 +116,58 @@ function LivePreview({ form }: { form: FormState }) {
   )
 }
 
+async function uploadToCloudinary(file: File): Promise<string> {
+  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
+  const uploadPreset = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET
+  if (!cloudName || !uploadPreset) {
+    throw new Error('Image uploads not configured. Add NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME and NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET to .env.local')
+  }
+  const fd = new FormData()
+  fd.append('file', file)
+  fd.append('upload_preset', uploadPreset)
+  fd.append('folder', 'ace-voyages/tours')
+  const res = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
+    method: 'POST',
+    body: fd,
+  })
+  const json = await res.json()
+  if (json.error) throw new Error(json.error.message)
+  return json.secure_url as string
+}
+
 export default function Step3Media({ form, update, onPublish, onBack, isPending }: Props) {
   const fileInputRef = useRef<HTMLInputElement>(null)
-  const [uploading, startUpload] = useTransition()
+  const [uploading, setUploading] = useState(false)
   const [uploadError, setUploadError] = useState('')
   const [keyword, setKeyword] = useState('')
 
   const photoCount = form.gallery_urls.length
 
-  function handleFiles(files: FileList | null) {
+  async function handleFiles(files: FileList | null) {
     if (!files || files.length === 0) return
     setUploadError('')
+    setUploading(true)
 
-    Array.from(files).forEach((file) => {
-      startUpload(async () => {
-        const fd = new FormData()
-        fd.append('file', file)
-        const result = await uploadTourImage(fd)
-        if (result.error) {
-          setUploadError(result.error)
-        } else if (result.url) {
-          const newUrls = [...form.gallery_urls, result.url]
-          update('gallery_urls', newUrls)
-          if (!form.hero_image_url) {
-            update('hero_image_url', result.url)
-          }
+    // Track URLs locally to avoid stale-closure issues across sequential uploads
+    let currentUrls = [...form.gallery_urls]
+    let currentHero = form.hero_image_url
+
+    for (const file of Array.from(files)) {
+      try {
+        const url = await uploadToCloudinary(file)
+        currentUrls = [...currentUrls, url]
+        update('gallery_urls', currentUrls)
+        if (!currentHero) {
+          currentHero = url
+          update('hero_image_url', url)
         }
-      })
-    })
+      } catch (e: unknown) {
+        setUploadError(e instanceof Error ? e.message : 'Upload failed')
+        break
+      }
+    }
+
+    setUploading(false)
   }
 
   function removeImage(url: string) {
@@ -249,9 +272,10 @@ export default function Step3Media({ form, update, onPublish, onBack, isPending 
               <button
                 type="button"
                 disabled={uploading}
+                onClick={() => fileInputRef.current?.click()}
                 className="rounded-xl border border-[#E5E7EB] bg-white px-5 py-2 text-sm font-semibold text-[#374151] hover:bg-[#F3F4F6] transition-colors disabled:opacity-60"
               >
-                {uploading ? 'Uploading…' : 'Browse Files'}
+                {uploading ? 'Uploading to Cloudinary…' : 'Browse Files'}
               </button>
               <input
                 ref={fileInputRef}

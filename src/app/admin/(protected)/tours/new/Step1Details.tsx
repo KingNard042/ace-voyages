@@ -4,7 +4,7 @@ import Link from 'next/link'
 import {
   AlignLeft, Bold, Italic, List, Link as LinkIcon, ImageIcon,
   Landmark, Mountain, Heart, Briefcase, Tag,
-  ChevronRight, Check, Minus, Plus, Clock, MapPin,
+  ChevronRight, Check, Minus, Plus, Clock, MapPin, Users,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { FormState, FormUpdater } from './types'
@@ -19,10 +19,10 @@ interface Props {
 }
 
 const CATEGORIES = [
-  { value: 'culture',   label: 'Culture',   Icon: Landmark, bg: '#FEF3C7', color: '#92400E' },
-  { value: 'adventure', label: 'Adventure', Icon: Mountain, bg: '#EDE9FE', color: '#6D28D9' },
-  { value: 'romance',   label: 'Romance',   Icon: Heart,    bg: '#FCE7F3', color: '#9D174D' },
-  { value: 'business',  label: 'Business',  Icon: Briefcase,bg: '#DBEAFE', color: '#1D4ED8' },
+  { value: 'leisure',   label: 'Leisure',   Icon: Landmark,  bg: '#FEF3C7', color: '#92400E' },
+  { value: 'adventure', label: 'Adventure', Icon: Mountain,  bg: '#EDE9FE', color: '#6D28D9' },
+  { value: 'honeymoon', label: 'Honeymoon', Icon: Heart,     bg: '#FCE7F3', color: '#9D174D' },
+  { value: 'corporate', label: 'Corporate', Icon: Briefcase, bg: '#DBEAFE', color: '#1D4ED8' },
 ]
 
 function StepIndicator({ step }: { step: number }) {
@@ -186,8 +186,8 @@ export default function Step1Details({ form, update, step, onNext, onSaveDraft, 
             </div>
           </div>
 
-          {/* Duration + Destination row */}
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          {/* Duration + Destination + Capacity row */}
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
             {/* Duration */}
             <div className="rounded-2xl bg-white shadow-[0_2px_16px_rgba(0,0,0,0.06)] p-5">
               <div className="flex items-center gap-3 mb-4">
@@ -242,6 +242,28 @@ export default function Step1Details({ form, update, step, onNext, onSaveDraft, 
                   className="w-full rounded-xl bg-[#F3F4F6] px-4 py-2.5 text-sm text-[#1A1A2E] placeholder-[#9CA3AF] outline-none focus:ring-2 focus:ring-[#105fa3]/20 transition-all"
                 />
               </div>
+            </div>
+
+            {/* Capacity */}
+            <div className="rounded-2xl bg-white shadow-[0_2px_16px_rgba(0,0,0,0.06)] p-5">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#D1FAE5]">
+                  <Users size={16} className="text-[#065F46]" />
+                </div>
+                <h2
+                  className="text-base font-bold text-[#1A1A2E]"
+                  style={{ fontFamily: 'var(--font-manrope, Manrope, sans-serif)' }}
+                >
+                  Capacity
+                </h2>
+              </div>
+              <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-[#9CA3AF] mb-3">
+                Max Guests per Departure
+              </p>
+              <Counter value={form.max_guests} onChange={(v) => update('max_guests', v)} min={1} />
+              <p className="mt-3 text-xs text-[#9CA3AF]">
+                Controls seats available per tour date. Guests beyond this limit are waitlisted.
+              </p>
             </div>
           </div>
         </div>

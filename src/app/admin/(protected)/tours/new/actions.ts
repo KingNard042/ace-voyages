@@ -21,6 +21,8 @@ function makeSlug(title: string): string {
   )
 }
 
+const VALID_CATEGORIES = ['leisure', 'honeymoon', 'corporate', 'adventure']
+
 function buildTourRecord(form: FormState, isActive: boolean) {
   const allActivities = form.itinerary.flatMap((d) => d.activities)
   const uniqueActivities = [...new Set(allActivities)]
@@ -30,7 +32,7 @@ function buildTourRecord(form: FormState, isActive: boolean) {
     slug: makeSlug(form.title),
     short_description: form.short_description.trim() || null,
     full_description: form.itinerary.length > 0 ? JSON.stringify(form.itinerary) : null,
-    category: form.category || null,
+    category: VALID_CATEGORIES.includes(form.category) ? form.category : null,
     duration_days: form.duration_days,
     destination_city: form.destination_city.trim(),
     destination_country: form.destination_country.trim(),
@@ -77,30 +79,20 @@ export async function saveTour(
   }
 }
 
-export async function uploadTourImage(formData: FormData): Promise<{ url?: string; error?: string }> {
+export async function updateTour(
+  form: FormState,
+  tourId: string,
+  isActive: boolean,
+): Promise<SaveResult> {
   try {
     const supabase = createServerSupabaseClient()
-    const file = formData.get('file') as File | null
-    if (!file) return { error: 'No file provided' }
-
-    const ext = file.name.split('.').pop() ?? 'jpg'
-    const fileName = `${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`
-
-    const bytes = await file.arrayBuffer()
-    const buffer = Buffer.from(bytes)
-
-    const { data, error } = await supabase.storage
-      .from('tour-images')
-      .upload(fileName, buffer, { contentType: file.type, upsert: false })
-
-    if (error) return { error: error.message }
-
-    const { data: { publicUrl } } = supabase.storage
-      .from('tour-images')
-      .getPublicUrl(data.path)
-
-    return { url: publicUrl }
+    const record = buildTourRecord(form, isActive)
+    const { error } = await supabase.from('tours').update(record).eq('tour_id', tourId)
+    if (error) return { success: false, error: error.message }
+    revalidatePath('/admin/tours')
+    revalidatePath(`/admin/tours/${tourId}/edit`)
+    return { success: true, id: tourId }
   } catch (e) {
-    return { error: e instanceof Error ? e.message : 'Upload failed' }
+    return { success: false, error: e instanceof Error ? e.message : 'Unexpected error' }
   }
 }

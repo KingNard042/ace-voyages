@@ -21,7 +21,7 @@ export default async function ToursPage({ searchParams }: PageProps) {
     supabase
       .from('tours')
       .select(
-        'tour_id, title, slug, destination_city, destination_country, price_naira, duration_days, hero_image_url, short_description, is_active, is_featured, category',
+        'tour_id, title, slug, destination_city, destination_country, price_naira, duration_days, hero_image_url, short_description, is_active, is_featured, category, max_guests',
         { count: 'exact' },
       )
       .order('is_featured', { ascending: false })
