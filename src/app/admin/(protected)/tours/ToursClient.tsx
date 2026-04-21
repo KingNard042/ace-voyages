@@ -1,6 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import {
   Plus, Clock, ChevronLeft, ChevronRight,
   TrendingUp, Map, MoreVertical,
@@ -127,7 +128,10 @@ function TourCard({ tour }: { tour: Tour }) {
 
 function AddCard() {
   return (
-    <button className="rounded-2xl border-2 border-dashed border-[#E5E7EB] bg-white/50 flex flex-col items-center justify-center gap-2 min-h-[280px] transition-colors hover:border-[#105fa3] hover:bg-[#EEF4FB] group">
+    <Link
+      href="/admin/tours/new"
+      className="rounded-2xl border-2 border-dashed border-[#E5E7EB] bg-white/50 flex flex-col items-center justify-center gap-2 min-h-[280px] transition-colors hover:border-[#105fa3] hover:bg-[#EEF4FB] group"
+    >
       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F3F4F6] group-hover:bg-[#DBEAFE] transition-colors">
         <Plus size={20} className="text-[#9CA3AF] group-hover:text-[#105fa3] transition-colors" />
       </div>
@@ -137,7 +141,7 @@ function AddCard() {
         </p>
         <p className="text-xs text-[#9CA3AF] mt-0.5">Start a new curated Journey</p>
       </div>
-    </button>
+    </Link>
   )
 }
 
@@ -174,10 +178,13 @@ export default function ToursClient({
             Manage your curated travel experiences. Create, edit, and monitor performance of global and local Nigerian tour offerings.
           </p>
         </div>
-        <button className="flex items-center gap-2 rounded-xl bg-[#914c00] px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90 shrink-0">
+        <Link
+          href="/admin/tours/new"
+          className="flex items-center gap-2 rounded-xl bg-[#914c00] px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90 shrink-0"
+        >
           <Plus size={15} />
           Create New Tour
-        </button>
+        </Link>
       </div>
 
       {/* Stats row + featured campaign card */}
