@@ -34,7 +34,7 @@ export async function logActivity(params: {
       action: params.action,
       entity_type: params.entityType ?? null,
       entity_id: params.entityId ?? null,
-      metadata: params.metadata ?? null,
+      details: params.metadata ?? null,
     })
   } catch {
     // Non-blocking — never let logging break a user action

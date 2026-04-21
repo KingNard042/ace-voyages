@@ -1,10 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createServerClient } from '@supabase/ssr'
 
-export async function proxy(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  // Only gate /admin routes (not /admin/login)
   if (!pathname.startsWith('/admin') || pathname.startsWith('/admin/login')) {
     return NextResponse.next()
   }
@@ -38,7 +37,6 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(new URL('/admin/login', request.url))
   }
 
-  // Look up admin_users table for role
   const { data: adminUser } = await supabase
     .from('admin_users')
     .select('id, role, full_name, email, is_active')
@@ -49,7 +47,6 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(new URL('/admin/login?error=unauthorized', request.url))
   }
 
-  // Inject role into request headers for downstream server components
   const requestHeaders = new Headers(request.headers)
   requestHeaders.set('x-admin-id', adminUser.id)
   requestHeaders.set('x-admin-role', adminUser.role)
