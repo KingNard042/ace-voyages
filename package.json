@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.90.0",
+    "@hookform/resolvers": "^5.2.2",
     "@paystack/inline-js": "^2.22.8",
     "@portabletext/react": "^6.0.3",
     "@supabase/ssr": "^0.10.2",
@@ -20,10 +21,12 @@
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "react-hook-form": "^7.73.1",
     "recharts": "^3.8.1",
     "resend": "^6.12.0",
     "styled-components": "^6.4.0",
-    "tailwind-merge": "^3.5.0"
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

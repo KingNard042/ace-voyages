@@ -1,0 +1,476 @@
+{
+  "nodes": [
+    {
+      "id": "create_tour_media_seo_screen",
+      "label": "Tour Creation Wizard - Media & SEO Step (Screen)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_wizard_step",
+      "label": "Media & Discoverability - Tour Creation Wizard Step 3",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_gallery_management",
+      "label": "Gallery Management - Drag & Drop Image Upload Section",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_featured_image",
+      "label": "Featured Image Placeholder - Tour Thumbnail Slots",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_seo_section",
+      "label": "Search Engine Optimization Section",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_meta_title",
+      "label": "Meta Title Field",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_meta_description",
+      "label": "Meta Description Field",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_keywords",
+      "label": "Keywords Tag Field (Nigeria Safari, Luxury Travel)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_live_preview",
+      "label": "Live Preview Panel - Tour Card Preview",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_publish_button",
+      "label": "Publish Tour Package CTA Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_save_back",
+      "label": "Save & Go Back Navigation Link",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_admin_sidebar",
+      "label": "Admin Sidebar Navigation (Dashboard, Tour Packages, Bookings, Destinations, Marketing)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_breadcrumb",
+      "label": "Breadcrumb: Tours > Create New Package > Media & SEO",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_yankari_preview",
+      "label": "Yankari Reserve Tour Card Preview (N650,000, 4.8 rating)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_upload_constraints",
+      "label": "Image Upload Constraints (JPEG/PNG/WebP, 5MB max, 10x resolution)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ace_voyages_admin_panel",
+      "label": "ACE Voyages Admin Panel",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "create_tour_media_seo_tour_creation_wizard",
+      "label": "Tour Creation Wizard Flow",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "create_tour_media_seo_screen",
+      "target": "create_tour_media_seo_wizard_step",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "create_tour_media_seo_gallery_management",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "create_tour_media_seo_featured_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "create_tour_media_seo_seo_section",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "create_tour_media_seo_live_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "create_tour_media_seo_publish_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "create_tour_media_seo_save_back",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_screen",
+      "target": "create_tour_media_seo_admin_sidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_screen",
+      "target": "create_tour_media_seo_breadcrumb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_seo_section",
+      "target": "create_tour_media_seo_meta_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_seo_section",
+      "target": "create_tour_media_seo_meta_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_seo_section",
+      "target": "create_tour_media_seo_keywords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_gallery_management",
+      "target": "create_tour_media_seo_upload_constraints",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_live_preview",
+      "target": "create_tour_media_seo_yankari_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_screen",
+      "target": "ace_voyages_admin_panel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "create_tour_media_seo_tour_creation_wizard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_breadcrumb",
+      "target": "create_tour_media_seo_tour_creation_wizard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_publish_button",
+      "target": "create_tour_media_seo_tour_creation_wizard",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "create_tour_media_seo_save_back",
+      "target": "create_tour_media_seo_tour_creation_wizard",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "create_tour_media_seo_gallery_management",
+      "target": "create_tour_media_seo_featured_image",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "create_tour_media_seo_keywords",
+      "target": "create_tour_media_seo_yankari_preview",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "create_tour_media_seo_seo_section",
+      "target": "create_tour_media_seo_live_preview",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "create_tour_media_seo_gallery_management",
+      "target": "create_tour_media_seo_live_preview",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "create_tour_media_seo_wizard_step",
+      "target": "ace_voyages_admin_panel",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "create_tour_media_seo_admin_sidebar",
+      "target": "ace_voyages_admin_panel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "create_tour_media_seo_meta_title",
+      "target": "create_tour_media_seo_meta_description",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "create_tour_media_seo_meta_title",
+      "target": "create_tour_media_seo_keywords",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "create_tour_media_seo_upload_constraints",
+      "target": "create_tour_media_seo_featured_image",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_media_seo/screen.png",
+      "source_location": null,
+      "weight": 0.75
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

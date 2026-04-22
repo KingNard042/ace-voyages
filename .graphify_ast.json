@@ -1,0 +1,3352 @@
+{
+  "nodes": [
+    {
+      "id": "eslint_config_mjs",
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_env_d_ts",
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_config_ts",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "postcss_config_mjs",
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_setup_admin_mjs",
+      "label": "setup-admin.mjs",
+      "file_type": "code",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "setup_admin_createtable",
+      "label": "createTable()",
+      "file_type": "code",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L22"
+    },
+    {
+      "id": "setup_admin_createauthuser",
+      "label": "createAuthUser()",
+      "file_type": "code",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L54"
+    },
+    {
+      "id": "setup_admin_upsertadminrecord",
+      "label": "upsertAdminRecord()",
+      "file_type": "code",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L80"
+    },
+    {
+      "id": "src_proxy_ts",
+      "label": "proxy.ts",
+      "file_type": "code",
+      "source_file": "src\\proxy.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "proxy_proxy",
+      "label": "proxy()",
+      "file_type": "code",
+      "source_file": "src\\proxy.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_app_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_app_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_admin_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_adminroot",
+      "label": "AdminRoot()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\page.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "src_app_admin_protected_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_adminlayout",
+      "label": "AdminLayout()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_app_admin_protected_dashboard_agentdashboard_tsx",
+      "label": "AgentDashboard.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\AgentDashboard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_admin_protected_dashboard_managerdashboard_tsx",
+      "label": "ManagerDashboard.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\ManagerDashboard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_admin_protected_dashboard_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_admin_protected_dashboard_superadmindashboard_tsx",
+      "label": "SuperAdminDashboard.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "superadmindashboard_formatnaira",
+      "label": "formatNaira()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L32"
+    },
+    {
+      "id": "superadmindashboard_bookingref",
+      "label": "bookingRef()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L38"
+    },
+    {
+      "id": "superadmindashboard_initials",
+      "label": "initials()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L43"
+    },
+    {
+      "id": "superadmindashboard_avatarcolor",
+      "label": "avatarColor()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L55"
+    },
+    {
+      "id": "src_app_admin_protected_tours_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_tourspage",
+      "label": "ToursPage()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\page.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_app_admin_protected_tours_touractions_ts",
+      "label": "tourActions.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "touractions_deletetour",
+      "label": "deleteTour()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "touractions_toggletourstatus",
+      "label": "toggleTourStatus()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_app_admin_protected_tours_toursclient_tsx",
+      "label": "ToursClient.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "toursclient_formatnaira",
+      "label": "formatNaira()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L39"
+    },
+    {
+      "id": "toursclient_getgradient",
+      "label": "getGradient()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L53"
+    },
+    {
+      "id": "toursclient_handletoggle",
+      "label": "handleToggle()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L70"
+    },
+    {
+      "id": "toursclient_handledelete",
+      "label": "handleDelete()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L79"
+    },
+    {
+      "id": "src_app_admin_protected_tours_new_actions_ts",
+      "label": "actions.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "actions_makeslug",
+      "label": "makeSlug()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L13"
+    },
+    {
+      "id": "actions_buildtourrecord",
+      "label": "buildTourRecord()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L26"
+    },
+    {
+      "id": "actions_savetour",
+      "label": "saveTour()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L50"
+    },
+    {
+      "id": "actions_updatetour",
+      "label": "updateTour()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L82"
+    },
+    {
+      "id": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "label": "CreateTourWizard.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "createtourwizard_update",
+      "label": "update()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "createtourwizard_validate",
+      "label": "validate()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L22"
+    },
+    {
+      "id": "createtourwizard_gonext",
+      "label": "goNext()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L35"
+    },
+    {
+      "id": "createtourwizard_goback",
+      "label": "goBack()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L43"
+    },
+    {
+      "id": "createtourwizard_handlesavedraft",
+      "label": "handleSaveDraft()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L49"
+    },
+    {
+      "id": "createtourwizard_handlepublish",
+      "label": "handlePublish()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L64"
+    },
+    {
+      "id": "src_app_admin_protected_tours_new_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_newtourpage",
+      "label": "NewTourPage()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\page.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_app_admin_protected_tours_new_step1details_tsx",
+      "label": "Step1Details.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step1Details.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "label": "Step2Pricing.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "step2pricing_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L102"
+    },
+    {
+      "id": "step2pricing_addday",
+      "label": "addDay()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L123"
+    },
+    {
+      "id": "step2pricing_removeday",
+      "label": "removeDay()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L134"
+    },
+    {
+      "id": "step2pricing_updateday",
+      "label": "updateDay()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L138"
+    },
+    {
+      "id": "step2pricing_addactivity",
+      "label": "addActivity()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L145"
+    },
+    {
+      "id": "step2pricing_removeactivity",
+      "label": "removeActivity()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L154"
+    },
+    {
+      "id": "src_app_admin_protected_tours_new_step3media_tsx",
+      "label": "Step3Media.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "step3media_formatnaira",
+      "label": "formatNaira()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L21"
+    },
+    {
+      "id": "step3media_getgradient",
+      "label": "getGradient()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L36"
+    },
+    {
+      "id": "src_app_admin_protected_tours_new_types_ts",
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\types.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "label": "EditTourForm.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "edittourform_removeactivity",
+      "label": "removeActivity()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L195"
+    },
+    {
+      "id": "edittourform_addkeyword",
+      "label": "addKeyword()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L202"
+    },
+    {
+      "id": "edittourform_handlesave",
+      "label": "handleSave()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L210"
+    },
+    {
+      "id": "src_app_admin_protected_tours_id_edit_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_edittourpage",
+      "label": "EditTourPage()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_app_admin_login_layout_tsx",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\login\\layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_loginlayout",
+      "label": "LoginLayout()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\login\\layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_admin_login_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\login\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_handlesubmit",
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "src\\app\\admin\\login\\page.tsx",
+      "source_location": "L23"
+    },
+    {
+      "id": "src_app_api_admin_login_route_ts",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\login\\route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src\\app\\api\\admin\\login\\route.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_app_services_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src\\app\\services\\page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_admin_admincontext_tsx",
+      "label": "AdminContext.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\AdminContext.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "admincontext_adminprovider",
+      "label": "AdminProvider()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\AdminContext.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "src_components_admin_adminsidebarclient_tsx",
+      "label": "AdminSidebarClient.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "adminsidebarclient_navlink",
+      "label": "NavLink()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L34"
+    },
+    {
+      "id": "adminsidebarclient_handlesignout",
+      "label": "handleSignOut()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L72"
+    },
+    {
+      "id": "src_components_admin_notificationbell_tsx",
+      "label": "NotificationBell.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "notificationbell_handleclick",
+      "label": "handleClick()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L90"
+    },
+    {
+      "id": "notificationbell_markallread",
+      "label": "markAllRead()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L99"
+    },
+    {
+      "id": "notificationbell_formattime",
+      "label": "formatTime()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L103"
+    },
+    {
+      "id": "src_components_admin_rolegate_tsx",
+      "label": "RoleGate.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\RoleGate.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "rolegate_rolegate",
+      "label": "RoleGate()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\RoleGate.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_components_admin_sessionguard_tsx",
+      "label": "SessionGuard.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\SessionGuard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sessionguard_sessionguard",
+      "label": "SessionGuard()",
+      "file_type": "code",
+      "source_file": "src\\components\\admin\\SessionGuard.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "src_components_layout_footer_tsx",
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\layout\\Footer.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_layout_navbar_tsx",
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "navbar_onscroll",
+      "label": "onScroll()",
+      "file_type": "code",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L26"
+    },
+    {
+      "id": "src_components_layout_publiclayout_tsx",
+      "label": "PublicLayout.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\layout\\PublicLayout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "publiclayout_publiclayout",
+      "label": "PublicLayout()",
+      "file_type": "code",
+      "source_file": "src\\components\\layout\\PublicLayout.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_components_ui_badge_tsx",
+      "label": "Badge.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\Badge.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "badge_badge",
+      "label": "Badge()",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\Badge.tsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_components_ui_button_tsx",
+      "label": "Button.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\Button.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_ui_card_tsx",
+      "label": "Card.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\Card.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "card_card",
+      "label": "Card()",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\Card.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_components_ui_faqaccordion_tsx",
+      "label": "FAQAccordion.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\FAQAccordion.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_ui_input_tsx",
+      "label": "Input.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\Input.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "input_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\Input.tsx",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_components_ui_newsletterform_tsx",
+      "label": "NewsletterForm.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\NewsletterForm.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "newsletterform_newsletterform",
+      "label": "NewsletterForm()",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\NewsletterForm.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_components_ui_sectionheader_tsx",
+      "label": "SectionHeader.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\SectionHeader.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_ui_tourcard_tsx",
+      "label": "TourCard.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\TourCard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_ui_whatsappbutton_tsx",
+      "label": "WhatsAppButton.tsx",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\WhatsAppButton.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "whatsappbutton_whatsappbutton",
+      "label": "WhatsAppButton()",
+      "file_type": "code",
+      "source_file": "src\\components\\ui\\WhatsAppButton.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "src_lib_claude_ts",
+      "label": "claude.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "claude_classifylead",
+      "label": "classifyLead()",
+      "file_type": "code",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L20"
+    },
+    {
+      "id": "claude_generatefollowupmessage",
+      "label": "generateFollowUpMessage()",
+      "file_type": "code",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L48"
+    },
+    {
+      "id": "claude_checkvisadocuments",
+      "label": "checkVisaDocuments()",
+      "file_type": "code",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L75"
+    },
+    {
+      "id": "src_lib_content_ts",
+      "label": "content.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "content_getfeaturedtours",
+      "label": "getFeaturedTours()",
+      "file_type": "code",
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L24"
+    },
+    {
+      "id": "content_getapprovedtestimonials",
+      "label": "getApprovedTestimonials()",
+      "file_type": "code",
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L42"
+    },
+    {
+      "id": "src_lib_utils_ts",
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\utils.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src\\lib\\utils.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_lib_whatsapp_ts",
+      "label": "whatsapp.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "whatsapp_getconfig",
+      "label": "getConfig()",
+      "file_type": "code",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L18"
+    },
+    {
+      "id": "whatsapp_normalisephone",
+      "label": "normalisePhone()",
+      "file_type": "code",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L25"
+    },
+    {
+      "id": "whatsapp_sendwhatsapptext",
+      "label": "sendWhatsAppText()",
+      "file_type": "code",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L29"
+    },
+    {
+      "id": "whatsapp_sendwhatsapptemplate",
+      "label": "sendWhatsAppTemplate()",
+      "file_type": "code",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L45"
+    },
+    {
+      "id": "whatsapp_verifywebhooktoken",
+      "label": "verifyWebhookToken()",
+      "file_type": "code",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L66"
+    },
+    {
+      "id": "src_lib_admin_access_ts",
+      "label": "access.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\admin\\access.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "access_canaccess",
+      "label": "canAccess()",
+      "file_type": "code",
+      "source_file": "src\\lib\\admin\\access.ts",
+      "source_location": "L34"
+    },
+    {
+      "id": "access_getrolelabel",
+      "label": "getRoleLabel()",
+      "file_type": "code",
+      "source_file": "src\\lib\\admin\\access.ts",
+      "source_location": "L39"
+    },
+    {
+      "id": "src_lib_admin_auth_ts",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "auth_getadminsession",
+      "label": "getAdminSession()",
+      "file_type": "code",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "auth_logactivity",
+      "label": "logActivity()",
+      "file_type": "code",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L59"
+    },
+    {
+      "id": "src_lib_email_confirmationemail_ts",
+      "label": "confirmationEmail.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\email\\confirmationEmail.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "confirmationemail_sendbookingconfirmation",
+      "label": "sendBookingConfirmation()",
+      "file_type": "code",
+      "source_file": "src\\lib\\email\\confirmationEmail.ts",
+      "source_location": "L17"
+    },
+    {
+      "id": "confirmationemail_sendleadacknowledgement",
+      "label": "sendLeadAcknowledgement()",
+      "file_type": "code",
+      "source_file": "src\\lib\\email\\confirmationEmail.ts",
+      "source_location": "L55"
+    },
+    {
+      "id": "src_lib_supabase_client_ts",
+      "label": "client.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\supabase\\client.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_supabase_server_ts",
+      "label": "server.ts",
+      "file_type": "code",
+      "source_file": "src\\lib\\supabase\\server.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "server_createserversupabaseclient",
+      "label": "createServerSupabaseClient()",
+      "file_type": "code",
+      "source_file": "src\\lib\\supabase\\server.ts",
+      "source_location": "L4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "eslint_config_mjs",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "core_web_vitals",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "typescript",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "next_env_d_ts",
+      "target": "next_dev_types_routes_d_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "next-env.d.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "next_config_ts",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_setup_admin_mjs",
+      "target": "supabase_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_setup_admin_mjs",
+      "target": "setup_admin_createtable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_setup_admin_mjs",
+      "target": "setup_admin_createauthuser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_setup_admin_mjs",
+      "target": "setup_admin_upsertadminrecord",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts\\setup-admin.mjs",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "src_proxy_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\proxy.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_proxy_ts",
+      "target": "ssr",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\proxy.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_proxy_ts",
+      "target": "proxy_proxy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\proxy.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "google",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "src_app_globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "publiclayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_layout_tsx",
+      "target": "layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\layout.tsx",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "sectionheader",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "tourcard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "whatsappbutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "faqaccordion",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "newsletterform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_page_tsx",
+      "target": "content",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\page.tsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_page_tsx",
+      "target": "page_adminroot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "access",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "admincontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "rolegate",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "sessionguard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "notificationbell",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "adminsidebarclient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_layout_tsx",
+      "target": "layout_adminlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_agentdashboard_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\AgentDashboard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_agentdashboard_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\AgentDashboard.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_managerdashboard_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\ManagerDashboard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_page_tsx",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_page_tsx",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_page_tsx",
+      "target": "src_app_admin_protected_dashboard_superadmindashboard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_page_tsx",
+      "target": "src_app_admin_protected_dashboard_managerdashboard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_page_tsx",
+      "target": "src_app_admin_protected_dashboard_agentdashboard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\page.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_superadmindashboard_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_superadmindashboard_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_superadmindashboard_tsx",
+      "target": "superadmindashboard_formatnaira",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_superadmindashboard_tsx",
+      "target": "superadmindashboard_bookingref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_superadmindashboard_tsx",
+      "target": "superadmindashboard_initials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_dashboard_superadmindashboard_tsx",
+      "target": "superadmindashboard_avatarcolor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\dashboard\\SuperAdminDashboard.tsx",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_page_tsx",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_page_tsx",
+      "target": "src_app_admin_protected_tours_toursclient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_page_tsx",
+      "target": "page_tourspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\page.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_touractions_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_touractions_ts",
+      "target": "cache",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_touractions_ts",
+      "target": "touractions_deletetour",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_touractions_ts",
+      "target": "touractions_toggletourstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "src_app_admin_protected_tours_touractions",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "toursclient_formatnaira",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "toursclient_getgradient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "toursclient_handletoggle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_toursclient_tsx",
+      "target": "toursclient_handledelete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\ToursClient.tsx",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_actions_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_actions_ts",
+      "target": "cache",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_actions_ts",
+      "target": "src_app_admin_protected_tours_new_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_actions_ts",
+      "target": "actions_makeslug",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_actions_ts",
+      "target": "actions_buildtourrecord",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_actions_ts",
+      "target": "actions_savetour",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_actions_ts",
+      "target": "actions_updatetour",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "actions_buildtourrecord",
+      "target": "actions_makeslug",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "actions_savetour",
+      "target": "actions_buildtourrecord",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "actions_updatetour",
+      "target": "actions_buildtourrecord",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "src_app_admin_protected_tours_new_actions",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "src_app_admin_protected_tours_new_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "src_app_admin_protected_tours_new_step1details",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "src_app_admin_protected_tours_new_step2pricing",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "src_app_admin_protected_tours_new_step3media",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "createtourwizard_update",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "createtourwizard_validate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "createtourwizard_gonext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "createtourwizard_goback",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "createtourwizard_handlesavedraft",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_createtourwizard_tsx",
+      "target": "createtourwizard_handlepublish",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "createtourwizard_gonext",
+      "target": "createtourwizard_validate",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "createtourwizard_handlesavedraft",
+      "target": "createtourwizard_validate",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "createtourwizard_handlepublish",
+      "target": "createtourwizard_validate",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\CreateTourWizard.tsx",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_page_tsx",
+      "target": "auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_page_tsx",
+      "target": "src_app_admin_protected_tours_new_createtourwizard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_page_tsx",
+      "target": "page_newtourpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\page.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step1details_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step1Details.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step1details_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step1Details.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step1details_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step1Details.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step1details_tsx",
+      "target": "src_app_admin_protected_tours_new_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step1Details.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "src_app_admin_protected_tours_new_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "step2pricing_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "step2pricing_addday",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "step2pricing_removeday",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "step2pricing_updateday",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "step2pricing_addactivity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step2pricing_tsx",
+      "target": "step2pricing_removeactivity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "step2pricing_addactivity",
+      "target": "step2pricing_updateday",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "step2pricing_removeactivity",
+      "target": "step2pricing_updateday",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step3media_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step3media_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step3media_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step3media_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step3media_tsx",
+      "target": "src_app_admin_protected_tours_new_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step3media_tsx",
+      "target": "step3media_formatnaira",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_new_step3media_tsx",
+      "target": "step3media_getgradient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step3Media.tsx",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "src_app_admin_protected_tours_new_actions",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "src_app_admin_protected_tours_new_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "edittourform_removeactivity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "edittourform_addkeyword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_edittourform_tsx",
+      "target": "edittourform_handlesave",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_page_tsx",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_page_tsx",
+      "target": "src_app_admin_protected_tours_new_types",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_page_tsx",
+      "target": "src_app_admin_protected_tours_id_edit_edittourform",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_protected_tours_id_edit_page_tsx",
+      "target": "page_edittourpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_login_layout_tsx",
+      "target": "layout_loginlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\login\\layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_login_page_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\login\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_login_page_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\login\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_login_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\login\\page.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_admin_login_page_tsx",
+      "target": "page_handlesubmit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\admin\\login\\page.tsx",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_login_route_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\login\\route.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_login_route_ts",
+      "target": "ssr",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\login\\route.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_api_admin_login_route_ts",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\api\\admin\\login\\route.ts",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_services_page_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\services\\page.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_services_page_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\services\\page.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_services_page_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\services\\page.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_services_page_tsx",
+      "target": "button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\app\\services\\page.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_admincontext_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_admincontext_tsx",
+      "target": "access",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_admincontext_tsx",
+      "target": "admincontext_adminprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminContext.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "access",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "adminsidebarclient_navlink",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_adminsidebarclient_tsx",
+      "target": "adminsidebarclient_handlesignout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\AdminSidebarClient.tsx",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "src_components_admin_admincontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "notificationbell_handleclick",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "notificationbell_markallread",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_notificationbell_tsx",
+      "target": "notificationbell_formattime",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\NotificationBell.tsx",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_rolegate_tsx",
+      "target": "access",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\RoleGate.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_rolegate_tsx",
+      "target": "src_components_admin_admincontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\RoleGate.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_rolegate_tsx",
+      "target": "rolegate_rolegate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\RoleGate.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_sessionguard_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\SessionGuard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_sessionguard_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\SessionGuard.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_sessionguard_tsx",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\SessionGuard.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_admin_sessionguard_tsx",
+      "target": "sessionguard_sessionguard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\admin\\SessionGuard.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_footer_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Footer.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_navbar_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_navbar_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_navbar_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_navbar_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_navbar_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_navbar_tsx",
+      "target": "button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_navbar_tsx",
+      "target": "navbar_onscroll",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\Navbar.tsx",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_publiclayout_tsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\PublicLayout.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_publiclayout_tsx",
+      "target": "src_components_layout_navbar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\PublicLayout.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_publiclayout_tsx",
+      "target": "src_components_layout_footer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\PublicLayout.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_layout_publiclayout_tsx",
+      "target": "publiclayout_publiclayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\layout\\PublicLayout.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_badge_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Badge.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_badge_tsx",
+      "target": "badge_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Badge.tsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_button_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Button.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_button_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Button.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_card_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Card.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_card_tsx",
+      "target": "card_card",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Card.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_faqaccordion_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\FAQAccordion.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_faqaccordion_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\FAQAccordion.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_faqaccordion_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\FAQAccordion.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_input_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Input.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_input_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Input.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_input_tsx",
+      "target": "input_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\Input.tsx",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_newsletterform_tsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\NewsletterForm.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_newsletterform_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\NewsletterForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_newsletterform_tsx",
+      "target": "src_components_ui_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\NewsletterForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_newsletterform_tsx",
+      "target": "newsletterform_newsletterform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\NewsletterForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_sectionheader_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\SectionHeader.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_tourcard_tsx",
+      "target": "image",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\TourCard.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_tourcard_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\TourCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_tourcard_tsx",
+      "target": "lucide_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\TourCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_tourcard_tsx",
+      "target": "utils",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\TourCard.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_tourcard_tsx",
+      "target": "src_components_ui_badge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\TourCard.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_tourcard_tsx",
+      "target": "src_components_ui_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\TourCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_whatsappbutton_tsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\WhatsAppButton.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_ui_whatsappbutton_tsx",
+      "target": "whatsappbutton_whatsappbutton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\components\\ui\\WhatsAppButton.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_claude_ts",
+      "target": "sdk",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_claude_ts",
+      "target": "claude_classifylead",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_claude_ts",
+      "target": "claude_generatefollowupmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_claude_ts",
+      "target": "claude_checkvisadocuments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\claude.ts",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_content_ts",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_content_ts",
+      "target": "content_getfeaturedtours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_content_ts",
+      "target": "content_getapprovedtestimonials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "clsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\utils.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "tailwind_merge",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\utils.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_utils_ts",
+      "target": "utils_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\utils.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_whatsapp_ts",
+      "target": "whatsapp_getconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_whatsapp_ts",
+      "target": "whatsapp_normalisephone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_whatsapp_ts",
+      "target": "whatsapp_sendwhatsapptext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_whatsapp_ts",
+      "target": "whatsapp_sendwhatsapptemplate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_whatsapp_ts",
+      "target": "whatsapp_verifywebhooktoken",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "whatsapp_sendwhatsapptext",
+      "target": "whatsapp_getconfig",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "whatsapp_sendwhatsapptext",
+      "target": "whatsapp_normalisephone",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "whatsapp_sendwhatsapptemplate",
+      "target": "whatsapp_getconfig",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "whatsapp_sendwhatsapptemplate",
+      "target": "whatsapp_normalisephone",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\whatsapp.ts",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_access_ts",
+      "target": "access_canaccess",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\access.ts",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_access_ts",
+      "target": "access_getrolelabel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\access.ts",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_auth_ts",
+      "target": "headers",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_auth_ts",
+      "target": "ssr",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_auth_ts",
+      "target": "supabase_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_auth_ts",
+      "target": "src_lib_admin_access",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_auth_ts",
+      "target": "auth_getadminsession",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_admin_auth_ts",
+      "target": "auth_logactivity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\admin\\auth.ts",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_email_confirmationemail_ts",
+      "target": "resend",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\email\\confirmationEmail.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_email_confirmationemail_ts",
+      "target": "confirmationemail_sendbookingconfirmation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\email\\confirmationEmail.ts",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_email_confirmationemail_ts",
+      "target": "confirmationemail_sendleadacknowledgement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\email\\confirmationEmail.ts",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_supabase_client_ts",
+      "target": "ssr",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\supabase\\client.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_supabase_server_ts",
+      "target": "supabase_js",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\supabase\\server.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_lib_supabase_server_ts",
+      "target": "server_createserversupabaseclient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src\\lib\\supabase\\server.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "layout_adminlayout",
+      "target": "auth_getadminsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\layout.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "page_tourspage",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\page.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "touractions_deletetour",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "touractions_toggletourstatus",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "touractions_toggletourstatus",
+      "target": "createtourwizard_update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\tourActions.ts",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "actions_savetour",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "actions_savetour",
+      "target": "createtourwizard_update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "actions_updatetour",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "actions_updatetour",
+      "target": "createtourwizard_update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\actions.ts",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "page_newtourpage",
+      "target": "auth_getadminsession",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\page.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "step2pricing_addday",
+      "target": "createtourwizard_update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "step2pricing_removeday",
+      "target": "createtourwizard_update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "step2pricing_updateday",
+      "target": "createtourwizard_update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\new\\Step2Pricing.tsx",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "edittourform_removeactivity",
+      "target": "step2pricing_updateday",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "edittourform_addkeyword",
+      "target": "createtourwizard_update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\EditTourForm.tsx",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "page_edittourpage",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\app\\admin\\(protected)\\tours\\[id]\\edit\\page.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "rolegate_rolegate",
+      "target": "access_canaccess",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\components\\admin\\RoleGate.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "content_getfeaturedtours",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "content_getapprovedtestimonials",
+      "target": "server_createserversupabaseclient",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src\\lib\\content.ts",
+      "source_location": "L44",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

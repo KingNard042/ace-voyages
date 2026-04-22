@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "id": "file_documentIcon",
+      "label": "File / Document Icon",
+      "file_type": "image",
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "globe_globeIcon",
+      "label": "Globe / World Icon",
+      "file_type": "image",
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "next_nextjsLogo",
+      "label": "Next.js Wordmark Logo",
+      "file_type": "image",
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vercel_vercelLogo",
+      "label": "Vercel Triangle Logo",
+      "file_type": "image",
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "window_browserWindowIcon",
+      "label": "Browser / Application Window Icon",
+      "file_type": "image",
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "next_nextjsLogo",
+      "target": "vercel_vercelLogo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vercel_vercelLogo",
+      "target": "next_nextjsLogo",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "globe_globeIcon",
+      "target": "window_browserWindowIcon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "window_browserWindowIcon",
+      "target": "globe_globeIcon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "next_nextjsLogo",
+      "target": "window_browserWindowIcon",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "next_nextjsLogo",
+      "target": "globe_globeIcon",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "vercel_vercelLogo",
+      "target": "globe_globeIcon",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "file_documentIcon",
+      "target": "next_nextjsLogo",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "weight": 0.65
+    },
+    {
+      "source": "file_documentIcon",
+      "target": "window_browserWindowIcon",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "weight": 0.6
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

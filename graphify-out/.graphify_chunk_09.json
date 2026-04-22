@@ -1,0 +1,601 @@
+{
+  "nodes": [
+    {
+      "id": "screen_services_page",
+      "label": "Ace Voyages Services Page",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_section_hero",
+      "label": "Services Page Hero Section",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_service_flight_booking",
+      "label": "Flight Booking Service",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_service_visa_services",
+      "label": "Visa Services",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_section_curated_tours",
+      "label": "Curated Tours Section",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_venice",
+      "label": "Tour Card – Venice (Italy)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_safari",
+      "label": "Tour Card – Safari / Wildlife",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_asia",
+      "label": "Tour Card – Asia / Market Street",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_section_why_ace_voyages",
+      "label": "Why Ace Voyages Section",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_why_bullet_expert_travel",
+      "label": "USP – Expert Travel Planning",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_why_bullet_visa_support",
+      "label": "USP – Visa & Documentation Support",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_why_bullet_curated_experiences",
+      "label": "USP – Curated Experiences",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_why_image_travellers",
+      "label": "Why Section – Travellers Photo",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_nav_header",
+      "label": "Navigation Header",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_footer",
+      "label": "Page Footer",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_flight_image_airplane",
+      "label": "Hero Airplane Image",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_visa_form_ui",
+      "label": "Visa Services – Form / Date Picker UI",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_cta_button_flight",
+      "label": "CTA Button – Flight Booking",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_cta_button_visa",
+      "label": "CTA Button – Visa Services",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_layout_two_column",
+      "label": "Two-Column Layout Pattern",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_layout_card_grid",
+      "label": "Three-Column Tour Card Grid",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_design_blue_accent",
+      "label": "Brand Blue Accent Color",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "screen_services_page",
+      "target": "screen_nav_header",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_services_page",
+      "target": "screen_section_hero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_services_page",
+      "target": "screen_service_flight_booking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_services_page",
+      "target": "screen_service_visa_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_services_page",
+      "target": "screen_section_curated_tours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_services_page",
+      "target": "screen_section_why_ace_voyages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_services_page",
+      "target": "screen_footer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_hero",
+      "target": "screen_flight_image_airplane",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_service_flight_booking",
+      "target": "screen_cta_button_flight",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_service_visa_services",
+      "target": "screen_visa_form_ui",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_service_visa_services",
+      "target": "screen_cta_button_visa",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_curated_tours",
+      "target": "screen_tour_card_venice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_curated_tours",
+      "target": "screen_tour_card_safari",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_curated_tours",
+      "target": "screen_tour_card_asia",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_curated_tours",
+      "target": "screen_layout_card_grid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_why_ace_voyages",
+      "target": "screen_why_bullet_expert_travel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_why_ace_voyages",
+      "target": "screen_why_bullet_visa_support",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_why_ace_voyages",
+      "target": "screen_why_bullet_curated_experiences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_why_ace_voyages",
+      "target": "screen_why_image_travellers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_service_flight_booking",
+      "target": "screen_layout_two_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_service_visa_services",
+      "target": "screen_layout_two_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_section_why_ace_voyages",
+      "target": "screen_layout_two_column",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_services_page",
+      "target": "screen_design_blue_accent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_nav_header",
+      "target": "screen_design_blue_accent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_cta_button_flight",
+      "target": "screen_design_blue_accent",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_cta_button_visa",
+      "target": "screen_design_blue_accent",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_why_bullet_visa_support",
+      "target": "screen_service_visa_services",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_why_bullet_curated_experiences",
+      "target": "screen_section_curated_tours",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_why_bullet_expert_travel",
+      "target": "screen_service_flight_booking",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "screen_tour_card_venice",
+      "target": "screen_tour_card_safari",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_tour_card_safari",
+      "target": "screen_tour_card_asia",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_tour_card_venice",
+      "target": "screen_tour_card_asia",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_service_flight_booking",
+      "target": "screen_service_visa_services",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "screen_visa_form_ui",
+      "target": "screen_service_visa_services",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 0.95
+    },
+    {
+      "source": "screen_section_hero",
+      "target": "screen_services_page",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_services page/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 1850,
+  "output_tokens": 920
+}

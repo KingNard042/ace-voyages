@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ACE Voyages CMS - Dashboard</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Satisfy&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed-dim": "#a2c9ff",
+                    "outline-variant": "#c1c7d2",
+                    "inverse-on-surface": "#f1f1f1",
+                    "tertiary-container": "#4778b1",
+                    "surface-container": "#eeeeee",
+                    "surface": "#f9f9f9",
+                    "on-tertiary-container": "#fffeff",
+                    "surface-tint": "#1360a5",
+                    "on-tertiary-fixed-variant": "#06487f",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f3f3f3",
+                    "on-tertiary-fixed": "#001c38",
+                    "on-secondary-fixed-variant": "#6f3900",
+                    "secondary-fixed": "#ffdcc4",
+                    "secondary-fixed-dim": "#ffb77f",
+                    "tertiary": "#2b5f97",
+                    "inverse-primary": "#a2c9ff",
+                    "on-surface": "#1a1c1c",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#a2c9ff",
+                    "secondary-container": "#ff9b43",
+                    "on-background": "#1a1c1c",
+                    "tertiary-fixed": "#d3e4ff",
+                    "on-secondary": "#ffffff",
+                    "inverse-surface": "#2f3131",
+                    "primary-fixed": "#d3e4ff",
+                    "on-surface-variant": "#414751",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-dim": "#dadada",
+                    "surface-container-high": "#e8e8e8",
+                    "on-error": "#ffffff",
+                    "background": "#f9f9f9",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "error": "#ba1a1a",
+                    "on-secondary-fixed": "#2f1500",
+                    "surface-bright": "#f9f9f9",
+                    "primary": "#105fa3",
+                    "secondary": "#914c00",
+                    "primary-container": "#3778be",
+                    "on-primary-fixed": "#001c38",
+                    "surface-variant": "#e2e2e2",
+                    "on-primary-fixed-variant": "#004881",
+                    "on-error-container": "#93000a",
+                    "outline": "#727782",
+                    "on-secondary-container": "#6c3700",
+                    "on-primary-container": "#fffeff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+        }
+        .sidebar-active {
+            box-shadow: inset -4px 0 0 0 #105fa3;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- SideNavBar Execution -->
+<aside class="h-screen w-64 fixed left-0 top-0 border-r-0 bg-slate-50 dark:bg-slate-900 flex flex-col py-6 z-50">
+<div class="px-6 mb-10">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined" data-icon="flight_takeoff">flight_takeoff</span>
+</div>
+<div>
+<h1 class="text-xl font-bold text-blue-900 dark:text-blue-200 font-headline leading-tight">ACE Voyages</h1>
+<p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Digital Concierge</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 px-4 space-y-1">
+<!-- Active: Dashboard -->
+<a class="flex items-center gap-3 px-4 py-3 text-blue-700 dark:text-blue-400 font-bold border-r-4 border-blue-700 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="flight_takeoff">flight_takeoff</span>
+<span>Flights</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="explore">explore</span>
+<span>Tours</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+<span>Visas</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="article">article</span>
+<span>Blog</span>
+</a>
+<div class="pt-10 pb-4 px-4">
+<span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Administration</span>
+</div>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+<span>Users</span>
+</a>
+</nav>
+<div class="px-4 mt-auto">
+<button class="w-full py-3 bg-primary text-on-primary rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-primary/20 scale-95 hover:scale-100 transition-transform">
+<span class="material-symbols-outlined text-sm" data-icon="add">add</span>
+<span>New Booking</span>
+</button>
+</div>
+</aside>
+<!-- Main Content Wrapper -->
+<main class="ml-64 min-h-screen">
+<!-- TopNavBar Execution -->
+<header class="fixed top-0 right-0 w-[calc(100%-16rem)] h-16 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md flex justify-between items-center px-8 z-40">
+<div class="flex items-center gap-4 flex-1">
+<div class="relative w-full max-w-md">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg" data-icon="search">search</span>
+<input class="w-full bg-slate-100 border-none rounded-full py-2 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary/20" placeholder="Search bookings, flights, or clients..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-3">
+<button class="text-slate-600 hover:text-blue-600 transition-colors relative">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+<span class="absolute top-0 right-0 w-2 h-2 bg-secondary rounded-full border-2 border-white"></span>
+</button>
+<button class="text-slate-600 hover:text-blue-600 transition-colors">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+</div>
+<div class="h-8 w-[1px] bg-slate-200"></div>
+<div class="flex items-center gap-3">
+<div class="text-right hidden sm:block">
+<p class="text-xs font-bold text-on-surface">Admin User</p>
+<p class="text-[10px] text-slate-500">Super Administrator</p>
+</div>
+<img alt="Administrator Profile" class="w-10 h-10 rounded-full object-cover border-2 border-primary-fixed" data-alt="Professional headshot of a smiling man in a business suit with a warm and confident expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw0HTCUXBmgLwFeMQwgYPJTZNrXRrka2NVAJtMFV2MLrXLc3GOFHRh-PGfX2nDIz4-VT0yhajgJAVwCfnXiHe3-lsRYklC1q1ub-Svh3uKzg_sttzXYyUsW3AmCNN0JV-A5U-rmrXa98uzbTbLZrm54vwOh0iz9PAdnQMsv1ySulqEz_7pCcRGhLXZZE4HMqpb5I57rExY8o1YNHHYcOjlB_nkkAszW7d4Ln6gFXp2R0i7OunGmj3seNmhqmgh_wxAYk6SjRLGK2TN"/>
+</div>
+</div>
+</header>
+<!-- Canvas Area -->
+<div class="pt-24 px-8 pb-12">
+<!-- Header Section -->
+<div class="mb-8 flex justify-between items-end">
+<div>
+<h2 class="font-headline text-3xl font-extrabold text-blue-900 tracking-tight">Dashboard</h2>
+<p class="text-slate-500 mt-1">Welcome back, here's what's happening today.</p>
+</div>
+<div class="flex gap-3">
+<button class="bg-surface-container-lowest border border-outline-variant/30 px-4 py-2 rounded-xl text-sm font-semibold text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="calendar_today">calendar_today</span>
+                        Last 30 Days
+                    </button>
+<button class="bg-primary text-on-primary px-4 py-2 rounded-xl text-sm font-semibold flex items-center gap-2 shadow-lg shadow-primary/10">
+<span class="material-symbols-outlined text-sm" data-icon="download">download</span>
+                        Export Report
+                    </button>
+</div>
+</div>
+<!-- Bento Stats Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+<!-- Stat Card 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border-b-4 border-primary">
+<div class="flex justify-between items-start mb-4">
+<div class="p-2 bg-primary-fixed rounded-lg text-primary">
+<span class="material-symbols-outlined" data-icon="confirmation_number">confirmation_number</span>
+</div>
+<span class="text-emerald-500 text-xs font-bold bg-emerald-50 px-2 py-1 rounded">+12.5%</span>
+</div>
+<p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Total Bookings</p>
+<h3 class="text-2xl font-black text-on-surface mt-1">1,284</h3>
+<div class="mt-4 h-8 w-full flex items-end gap-1">
+<div class="flex-1 bg-primary/20 h-3 rounded-full"></div>
+<div class="flex-1 bg-primary/30 h-5 rounded-full"></div>
+<div class="flex-1 bg-primary/40 h-4 rounded-full"></div>
+<div class="flex-1 bg-primary/20 h-6 rounded-full"></div>
+<div class="flex-1 bg-primary/60 h-8 rounded-full"></div>
+<div class="flex-1 bg-primary/40 h-5 rounded-full"></div>
+</div>
+</div>
+<!-- Stat Card 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border-b-4 border-secondary">
+<div class="flex justify-between items-start mb-4">
+<div class="p-2 bg-secondary-fixed rounded-lg text-secondary">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+</div>
+<span class="text-emerald-500 text-xs font-bold bg-emerald-50 px-2 py-1 rounded">+8.2%</span>
+</div>
+<p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Revenue (NGN)</p>
+<h3 class="text-2xl font-black text-on-surface mt-1">₦42.8M</h3>
+<div class="mt-4 h-8 w-full flex items-end gap-1">
+<div class="flex-1 bg-secondary/20 h-6 rounded-full"></div>
+<div class="flex-1 bg-secondary/30 h-4 rounded-full"></div>
+<div class="flex-1 bg-secondary/40 h-8 rounded-full"></div>
+<div class="flex-1 bg-secondary/20 h-3 rounded-full"></div>
+<div class="flex-1 bg-secondary/60 h-5 rounded-full"></div>
+<div class="flex-1 bg-secondary/40 h-7 rounded-full"></div>
+</div>
+</div>
+<!-- Stat Card 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border-b-4 border-tertiary">
+<div class="flex justify-between items-start mb-4">
+<div class="p-2 bg-tertiary-fixed rounded-lg text-tertiary">
+<span class="material-symbols-outlined" data-icon="assignment_ind">assignment_ind</span>
+</div>
+<span class="text-secondary text-xs font-bold bg-secondary-fixed/30 px-2 py-1 rounded">24 Critical</span>
+</div>
+<p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Pending Visas</p>
+<h3 class="text-2xl font-black text-on-surface mt-1">156</h3>
+<div class="mt-4 h-8 w-full flex items-end gap-1">
+<div class="flex-1 bg-tertiary/20 h-4 rounded-full"></div>
+<div class="flex-1 bg-tertiary/30 h-7 rounded-full"></div>
+<div class="flex-1 bg-tertiary/40 h-5 rounded-full"></div>
+<div class="flex-1 bg-tertiary/20 h-8 rounded-full"></div>
+<div class="flex-1 bg-tertiary/60 h-6 rounded-full"></div>
+<div class="flex-1 bg-tertiary/40 h-3 rounded-full"></div>
+</div>
+</div>
+<!-- Stat Card 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border-b-4 border-blue-900">
+<div class="flex justify-between items-start mb-4">
+<div class="p-2 bg-slate-200 rounded-lg text-slate-700">
+<span class="material-symbols-outlined" data-icon="luggage">luggage</span>
+</div>
+<span class="text-slate-500 text-xs font-bold bg-slate-100 px-2 py-1 rounded">On Schedule</span>
+</div>
+<p class="text-slate-500 text-xs font-bold uppercase tracking-wider">Active Tours</p>
+<h3 class="text-2xl font-black text-on-surface mt-1">42</h3>
+<div class="mt-4 h-8 w-full flex items-end gap-1">
+<div class="flex-1 bg-slate-400/20 h-5 rounded-full"></div>
+<div class="flex-1 bg-slate-400/30 h-3 rounded-full"></div>
+<div class="flex-1 bg-slate-400/40 h-6 rounded-full"></div>
+<div class="flex-1 bg-slate-400/20 h-4 rounded-full"></div>
+<div class="flex-1 bg-slate-400/60 h-7 rounded-full"></div>
+<div class="flex-1 bg-slate-400/40 h-5 rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Main Content Split -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Recent Bookings Table Section -->
+<div class="lg:col-span-2 bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm">
+<div class="p-6 border-b border-outline-variant/10 flex justify-between items-center">
+<h4 class="font-headline font-bold text-lg">Recent Bookings</h4>
+<a class="text-primary text-sm font-bold hover:underline" href="#">View All</a>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead class="bg-surface-container-low text-[10px] uppercase tracking-widest font-bold text-slate-500">
+<tr>
+<th class="px-6 py-4">Client</th>
+<th class="px-6 py-4">Service</th>
+<th class="px-6 py-4">Destination</th>
+<th class="px-6 py-4">Status</th>
+<th class="px-6 py-4 text-right">Amount</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-50">
+<tr class="hover:bg-slate-50/50 transition-colors">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xs">OA</div>
+<div>
+<p class="text-sm font-bold">Olumide Adebayo</p>
+<p class="text-[10px] text-slate-400">#BK-9021</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-medium">Business Tour</td>
+<td class="px-6 py-4 text-sm">London, UK</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-bold uppercase tracking-wider">Confirmed</span>
+</td>
+<td class="px-6 py-4 text-right text-sm font-bold">₦1,240,000</td>
+</tr>
+<tr class="hover:bg-slate-50/50 transition-colors">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-orange-700 font-bold text-xs">CO</div>
+<div>
+<p class="text-sm font-bold">Chioma Okoro</p>
+<p class="text-[10px] text-slate-400">#BK-8942</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-medium">Visa Assistance</td>
+<td class="px-6 py-4 text-sm">Ontario, CAN</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 rounded-full bg-amber-100 text-amber-700 text-[10px] font-bold uppercase tracking-wider">Pending</span>
+</td>
+<td class="px-6 py-4 text-right text-sm font-bold">₦450,000</td>
+</tr>
+<tr class="hover:bg-slate-50/50 transition-colors">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-700 font-bold text-xs">IB</div>
+<div>
+<p class="text-sm font-bold">Ibrahim Bello</p>
+<p class="text-[10px] text-slate-400">#BK-8831</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-medium">Family Vacation</td>
+<td class="px-6 py-4 text-sm">Dubai, UAE</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-bold uppercase tracking-wider">Confirmed</span>
+</td>
+<td class="px-6 py-4 text-right text-sm font-bold">₦4,120,000</td>
+</tr>
+<tr class="hover:bg-slate-50/50 transition-colors">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-700 font-bold text-xs">FE</div>
+<div>
+<p class="text-sm font-bold">Fatima Eze</p>
+<p class="text-[10px] text-slate-400">#BK-8722</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-medium">Round Trip Flight</td>
+<td class="px-6 py-4 text-sm">Lagos, NIG</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 rounded-full bg-red-100 text-red-700 text-[10px] font-bold uppercase tracking-wider">Failed</span>
+</td>
+<td class="px-6 py-4 text-right text-sm font-bold">₦280,000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Task Overview & Itinerary Section -->
+<div class="space-y-8">
+<!-- Task Overview Card -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm">
+<h4 class="font-headline font-bold text-lg mb-6">Action Required</h4>
+<div class="space-y-4">
+<div class="flex items-start gap-4 p-3 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors cursor-pointer group">
+<div class="mt-1">
+<span class="material-symbols-outlined text-secondary" data-icon="error_outline">error_outline</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold">Approve 14 Visa Applications</p>
+<p class="text-xs text-slate-500">Dubai group travel deadline: Tomorrow</p>
+</div>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-primary" data-icon="chevron_right">chevron_right</span>
+</div>
+<div class="flex items-start gap-4 p-3 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors cursor-pointer group">
+<div class="mt-1 text-primary">
+<span class="material-symbols-outlined" data-icon="campaign">campaign</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold">Update Holiday Rates</p>
+<p class="text-xs text-slate-500">Summer 2024 packages need review</p>
+</div>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-primary" data-icon="chevron_right">chevron_right</span>
+</div>
+<div class="flex items-start gap-4 p-3 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors cursor-pointer group">
+<div class="mt-1 text-tertiary">
+<span class="material-symbols-outlined" data-icon="support_agent">support_agent</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold">Client Dispute #9901</p>
+<p class="text-xs text-slate-500">Refund request for cancelled flight</p>
+</div>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-primary" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Upcoming Tours Promo -->
+<div class="relative rounded-2xl overflow-hidden h-64 shadow-lg group">
+<img alt="Luxury safari vehicle in African savanna" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Modern open-top safari vehicle traversing a vast golden grassland in an African savanna under a dramatic sunset sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJKmioiFM8pTei9p3wCwLesNGp6y-y7l8pCeeLDebYkDHFyPxnFXDHXZnuBuPe6bYUB5yR9JfYZLlBgGL6_gC5hYBCvv2HNfJ9NaqyrUhKRrgxynEvlTNmJpuP-qFjgokK_3VKSWzndJ8dVX3tqJ4eBaRlazv6enyIt88uZ1JGLNY5Mws7j5fdrSaGmFnSEngs4lV5hjrQ3fsLoP9wUDXVRSTI_aFunAMk1oWCDM2k8y4OLTiNS1d9c7r8T4p5-Pt0OQDFWUVtflqq"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 flex flex-col justify-end">
+<span class="text-[10px] font-bold text-secondary-fixed bg-secondary/80 self-start px-2 py-1 rounded mb-2 uppercase tracking-widest">Featured Tour</span>
+<h5 class="text-white font-headline text-xl font-extrabold leading-tight">Yankari Reserve Exclusive Expedition</h5>
+<p class="text-white/70 text-xs mt-2">12 Bookings • Next departure: Sept 12</p>
+<button class="mt-4 w-full py-2 bg-white/20 backdrop-blur-md text-white text-sm font-bold rounded-lg border border-white/30 hover:bg-white/30 transition-colors">Manage Tour</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Meta -->
+<div class="mt-12 pt-8 border-t border-slate-200 flex justify-between items-center text-slate-400 text-xs">
+<p>© 2024 ACE Voyages. All systems operational.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary" href="#">System Logs</a>
+<a class="hover:text-primary" href="#">API Documentation</a>
+<a class="hover:text-primary" href="#">Support</a>
+</div>
+</div>
+</div>
+</main>
+<!-- FAB Action Button - Only on relevant dashboard contexts -->
+<div class="fixed bottom-8 right-8 z-50">
+<button class="w-14 h-14 bg-secondary rounded-full text-on-secondary shadow-2xl flex items-center justify-center hover:scale-110 transition-transform active:scale-95 group">
+<span class="material-symbols-outlined text-3xl transition-transform group-hover:rotate-90" data-icon="add">add</span>
+</button>
+</div>
+</body></html>

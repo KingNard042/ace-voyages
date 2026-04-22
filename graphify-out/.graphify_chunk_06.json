@@ -1,0 +1,734 @@
+{
+  "nodes": [
+    {
+      "id": "screen_admin_tour_packages_page",
+      "label": "Admin Tour Packages Page",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_sidebar_navigation",
+      "label": "Admin Sidebar Navigation",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_topbar_search",
+      "label": "Top Bar with Search",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_create_new_tour_cta",
+      "label": "Create New Tour CTA Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_stats_active_tours",
+      "label": "Active Tours Stat (42)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_stats_avg_duration",
+      "label": "Average Duration Stat (5.2 Days)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_promo_banner_nigerian_heritage",
+      "label": "Nigerian Heritage Month Promotional Banner",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_lagos_city",
+      "label": "Tour Card: Lagos City Experience",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_maasai_mara",
+      "label": "Tour Card: Maasai Mara Safari",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_golden_triangle",
+      "label": "Tour Card: Golden Triangle Tour",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_greek_island",
+      "label": "Tour Card: Greek Island Escape",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_add_new_package_card",
+      "label": "Add New Package Placeholder Card",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_hero_image",
+      "label": "Tour Card Hero Image Area",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_pricing",
+      "label": "Tour Card Pricing Display (Naira symbol)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_duration_badge",
+      "label": "Tour Card Duration Badge",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_rating_badge",
+      "label": "Tour Card Star Rating Badge",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_edit_icon",
+      "label": "Tour Card Edit/Pencil Icon",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_pagination_controls",
+      "label": "Pagination Controls (pages 1 2 3)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_showing_count_label",
+      "label": "Showing Count Label (Showing 4 of 42 packages)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_new_booking_fab",
+      "label": "New Booking Floating Action Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_admin_user_avatar",
+      "label": "Admin User Avatar (top-right)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_page_heading_tailored_experiences",
+      "label": "Page Heading: Tailored Experiences / Tour Packages",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_card_description_text",
+      "label": "Tour Card Short Description Text",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_tour_grid_layout",
+      "label": "Tour Cards Grid Layout (3-column)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_promo_banner_manage_button",
+      "label": "Promotional Banner Manage/CTA Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_sidebar_navigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_topbar_search",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_page_heading_tailored_experiences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_create_new_tour_cta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_stats_active_tours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_stats_avg_duration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_promo_banner_nigerian_heritage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_tour_grid_layout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_pagination_controls",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_showing_count_label",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_new_booking_fab",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_admin_user_avatar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_grid_layout",
+      "target": "screen_tour_card_lagos_city",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_grid_layout",
+      "target": "screen_tour_card_maasai_mara",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_grid_layout",
+      "target": "screen_tour_card_golden_triangle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_grid_layout",
+      "target": "screen_tour_card_greek_island",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_grid_layout",
+      "target": "screen_add_new_package_card",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_lagos_city",
+      "target": "screen_tour_card_hero_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_lagos_city",
+      "target": "screen_tour_card_pricing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_lagos_city",
+      "target": "screen_tour_card_duration_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_lagos_city",
+      "target": "screen_tour_card_rating_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_lagos_city",
+      "target": "screen_tour_card_description_text",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_lagos_city",
+      "target": "screen_tour_card_edit_icon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_maasai_mara",
+      "target": "screen_tour_card_hero_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_maasai_mara",
+      "target": "screen_tour_card_pricing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_maasai_mara",
+      "target": "screen_tour_card_duration_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_maasai_mara",
+      "target": "screen_tour_card_rating_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_golden_triangle",
+      "target": "screen_tour_card_hero_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_golden_triangle",
+      "target": "screen_tour_card_pricing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_golden_triangle",
+      "target": "screen_tour_card_duration_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_greek_island",
+      "target": "screen_tour_card_hero_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_greek_island",
+      "target": "screen_tour_card_pricing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_tour_card_greek_island",
+      "target": "screen_tour_card_duration_badge",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_promo_banner_nigerian_heritage",
+      "target": "screen_promo_banner_manage_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_create_new_tour_cta",
+      "target": "screen_add_new_package_card",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_stats_active_tours",
+      "target": "screen_showing_count_label",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "screen_tour_card_edit_icon",
+      "target": "screen_tour_card_lagos_city",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_pagination_controls",
+      "target": "screen_showing_count_label",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_tour_card_lagos_city",
+      "target": "screen_tour_card_maasai_mara",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_tour_card_maasai_mara",
+      "target": "screen_tour_card_golden_triangle",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_tour_card_golden_triangle",
+      "target": "screen_tour_card_greek_island",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_new_booking_fab",
+      "target": "screen_create_new_tour_cta",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "screen_promo_banner_nigerian_heritage",
+      "target": "screen_tour_card_lagos_city",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "screen_admin_tour_packages_page",
+      "target": "screen_tour_card_edit_icon",
+      "relation": "contains",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_topbar_search",
+      "target": "screen_admin_user_avatar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/Tour page design/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ACE Voyages CMS - Blog Editor</title>
+<!-- Fonts & Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Satisfy&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed-dim": "#a2c9ff",
+                    "outline-variant": "#c1c7d2",
+                    "inverse-on-surface": "#f1f1f1",
+                    "tertiary-container": "#4778b1",
+                    "surface-container": "#eeeeee",
+                    "surface": "#f9f9f9",
+                    "on-tertiary-container": "#fffeff",
+                    "surface-tint": "#1360a5",
+                    "on-tertiary-fixed-variant": "#06487f",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f3f3f3",
+                    "on-tertiary-fixed": "#001c38",
+                    "on-secondary-fixed-variant": "#6f3900",
+                    "secondary-fixed": "#ffdcc4",
+                    "secondary-fixed-dim": "#ffb77f",
+                    "tertiary": "#2b5f97",
+                    "inverse-primary": "#a2c9ff",
+                    "on-surface": "#1a1c1c",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#a2c9ff",
+                    "secondary-container": "#ff9b43",
+                    "on-background": "#1a1c1c",
+                    "tertiary-fixed": "#d3e4ff",
+                    "on-secondary": "#ffffff",
+                    "inverse-surface": "#2f3131",
+                    "primary-fixed": "#d3e4ff",
+                    "on-surface-variant": "#414751",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-dim": "#dadada",
+                    "surface-container-high": "#e8e8e8",
+                    "on-error": "#ffffff",
+                    "background": "#f9f9f9",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "error": "#ba1a1a",
+                    "on-secondary-fixed": "#2f1500",
+                    "surface-bright": "#f9f9f9",
+                    "primary": "#105fa3",
+                    "secondary": "#914c00",
+                    "primary-container": "#3778be",
+                    "on-primary-fixed": "#001c38",
+                    "surface-variant": "#e2e2e2",
+                    "on-primary-fixed-variant": "#004881",
+                    "on-error-container": "#93000a",
+                    "outline": "#727782",
+                    "on-secondary-container": "#6c3700",
+                    "on-primary-container": "#fffeff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"],
+                    "script": ["Satisfy"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface flex min-h-screen">
+<!-- SideNavBar (Shared Component) -->
+<aside class="h-screen w-64 fixed left-0 top-0 border-r-0 bg-slate-50 dark:bg-slate-900 flex flex-col py-6 z-50">
+<div class="px-6 mb-10">
+<h1 class="text-xl font-bold text-blue-900 dark:text-blue-200">ACE Voyages</h1>
+<p class="text-xs font-manrope font-semibold text-slate-400 uppercase tracking-widest">Digital Concierge</p>
+</div>
+<nav class="flex-1 space-y-1 px-3">
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors scale-95 duration-150 font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+                Dashboard
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors scale-95 duration-150 font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="flight_takeoff">flight_takeoff</span>
+                Flights
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors scale-95 duration-150 font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="explore">explore</span>
+                Tours
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors scale-95 duration-150 font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+                Visas
+            </a>
+<!-- Active Navigation for Blog Editor -->
+<a class="flex items-center gap-3 px-3 py-2 text-blue-700 dark:text-blue-400 font-bold border-r-4 border-blue-700 bg-blue-50/50 transition-colors font-manrope text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="article" style="font-variation-settings: 'FILL' 1;">article</span>
+                Blog
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors scale-95 duration-150 font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+                Settings
+            </a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-500 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors scale-95 duration-150 font-manrope font-semibold text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="group">group</span>
+                Users
+            </a>
+</nav>
+<div class="px-6 mt-auto">
+<button class="w-full py-3 bg-gradient-to-r from-primary to-primary-container text-on-primary rounded-xl font-bold text-sm shadow-lg shadow-primary/20">
+                New Booking
+            </button>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 ml-64 min-h-screen relative flex flex-col">
+<!-- TopNavBar (Shared Component) -->
+<header class="fixed top-0 right-0 w-[calc(100%-16rem)] h-16 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md flex justify-between items-center px-8 z-40">
+<div class="flex items-center gap-6">
+<span class="text-lg font-black text-blue-900 dark:text-blue-100 font-manrope">ACE Voyages CMS</span>
+<div class="relative w-80">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg" data-icon="search">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container rounded-full text-sm focus:outline-none focus:ring-1 ring-primary transition-all" placeholder="Search blog posts..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-slate-600 hover:text-blue-600 transition-opacity opacity-80 hover:opacity-100">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="p-2 text-slate-600 hover:text-blue-600 transition-opacity opacity-80 hover:opacity-100">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+<div class="h-8 w-px bg-slate-200 mx-2"></div>
+<div class="flex items-center gap-3 cursor-pointer">
+<div class="text-right">
+<p class="text-xs font-bold text-on-surface">Admin User</p>
+<p class="text-[10px] text-slate-500">System Manager</p>
+</div>
+<img alt="Administrator Profile" class="w-10 h-10 rounded-full border-2 border-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKIUt5Fa1hrcafCJTjXIuy-Iy4JkeCsOv0hKRIGybsI7J3zMi6WR6N6UFol4ejemiD6_09taR4exoyoZWo247HfAiyc5j0dRdrNqP6gWF-T26MVFOm388CgNJifZhfU-roe-PRUuY-6IllwE6LeZwrpsQ79xXlgn39grNWDl0yMiCp0mQ8kdb6xKkudXas2pHCPaC9vT_URx2EORNx7lxeaDrbkg-xdAsmvZK-T1e37mzqI_dfT-0vwm43lESiOB641sZPYyubO51g"/>
+</div>
+</div>
+</header>
+<!-- Content Canvas -->
+<div class="mt-16 p-8 space-y-8 max-w-7xl mx-auto w-full">
+<!-- Page Header with Satisfy Flourish -->
+<div class="flex justify-between items-end">
+<div>
+<h2 class="font-headline text-3xl font-extrabold tracking-tight text-primary">Content Studio</h2>
+<p class="font-script text-secondary text-2xl -mt-1 ml-1">Drafting your next narrative</p>
+</div>
+<div class="flex gap-3">
+<button class="px-6 py-2.5 rounded-xl text-primary font-bold text-sm bg-surface-container-lowest outline outline-1 outline-outline-variant/15 hover:bg-surface-container-low transition-colors">
+                        View Public Blog
+                    </button>
+<button class="px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold text-sm shadow-lg shadow-primary/20 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="add">add</span> Create New Post
+                    </button>
+</div>
+</div>
+<!-- Bento Layout for Editor and Stats -->
+<div class="grid grid-cols-12 gap-8">
+<!-- Main Editor Section -->
+<div class="col-span-12 lg:col-span-8 space-y-8">
+<!-- Post Editor Card -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-sm">
+<div class="space-y-6">
+<div class="space-y-1">
+<label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/70">Article Headline</label>
+<input class="w-full bg-surface-container-low border-none rounded-xl px-4 py-4 text-2xl font-headline font-bold text-primary focus:ring-2 ring-primary transition-all" placeholder="Enter post title..." type="text" value="The Ultimate Guide to Lagos Nightlife: Luxury Meets Culture"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-1">
+<label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/70">Category</label>
+<select class="w-full bg-surface-container-low border-none rounded-xl px-4 py-3 text-sm focus:ring-2 ring-primary transition-all">
+<option>Luxury Travel</option>
+<option selected="">Lifestyle &amp; Culture</option>
+<option>Business Concierge</option>
+<option>Global Destinations</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/70">Author</label>
+<div class="flex items-center gap-2 bg-surface-container-low rounded-xl px-4 py-3">
+<img alt="Author Avatar" class="w-5 h-5 rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXucIfhgucNokZTpyLnDQHI6hruZYPuz4t0QhsCo6V19DbaYb2x_Nh8S5CVbu4zD6ejauCJQbZcV5p4WmvEuHowKdKiGVpQC25ZAW9iqo3dZthrf7mP6aVpF02bUWFnpgMx9lgSTIxevqnbJygBLYCF_00-dfMZdhwFFu6otdsdxdBOdV9DycUnHfGM5ep2vNDs1Aib2eq2_9MBvY-QJPcK2wJNt4dH2AOKg-YXvZDlCN8I-vcw4OqV12eFZy7wIkXn89Dg4cWDRMl"/>
+<span class="text-sm font-medium">Chioma Adebayo</span>
+</div>
+</div>
+</div>
+<!-- Editor UI Mockup -->
+<div class="space-y-2">
+<label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/70">Content</label>
+<div class="bg-surface-container-low rounded-xl overflow-hidden">
+<!-- Toolbar -->
+<div class="flex items-center gap-1 p-2 border-b border-outline-variant/10 bg-surface-container-high/50">
+<button class="p-2 hover:bg-surface-container rounded-lg transition-colors"><span class="material-symbols-outlined text-xl" data-icon="format_bold">format_bold</span></button>
+<button class="p-2 hover:bg-surface-container rounded-lg transition-colors"><span class="material-symbols-outlined text-xl" data-icon="format_italic">format_italic</span></button>
+<button class="p-2 hover:bg-surface-container rounded-lg transition-colors"><span class="material-symbols-outlined text-xl" data-icon="format_list_bulleted">format_list_bulleted</span></button>
+<div class="h-6 w-px bg-outline-variant/20 mx-1"></div>
+<button class="p-2 hover:bg-surface-container rounded-lg transition-colors"><span class="material-symbols-outlined text-xl" data-icon="image">image</span></button>
+<button class="p-2 hover:bg-surface-container rounded-lg transition-colors"><span class="material-symbols-outlined text-xl" data-icon="link">link</span></button>
+<button class="p-2 hover:bg-surface-container rounded-lg transition-colors"><span class="material-symbols-outlined text-xl" data-icon="format_quote">format_quote</span></button>
+</div>
+<textarea class="w-full bg-transparent border-none p-6 text-base text-on-surface leading-relaxed focus:ring-0" placeholder="Start writing your journey..." rows="12">When the sun sets over Victoria Island, Lagos transforms into a vibrant tapestry of neon lights and high-octane rhythms. To truly experience the city's nightlife, one must look beyond the standard clubs and find the curated spaces where luxury meets local culture.
+
+From the rooftop lounges of Eko Atlantic to the hidden jazz bars in Ikoyi, we've compiled the definitive guide for the discerning traveler looking for an authentic Nigerian soirée...</textarea>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Posts List -->
+<div class="space-y-4">
+<h3 class="font-headline font-bold text-lg text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary" data-icon="history">history</span>
+                            Recent Stories
+                        </h3>
+<div class="space-y-3">
+<!-- Post Item 1 -->
+<div class="bg-surface-container-low rounded-xl p-4 flex items-center justify-between group hover:bg-surface-container transition-all">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-lg overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="vibrant street scene in Lagos at night with blurred traffic lights and skyscrapers in the distance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEg8vV4167ocgLTqU7_E9lyUePp455rIOmhfUrAw5SfGStgG5OL4nMjyNSLdxRyQcqzCZSFBEBiuwY5SGrbiMk4gKbWOpKzpFvvp4NIVVFfjHHeYzxv0_xNbN1XN8OLS4HI45wqQnyD6kicsTpEcWbEDfCtwn9NzOfqgaVZnRRbmtZyGHhb9tuJ53gKDI4_pCD88TOpwjyRFogra2E7pPoM4Vx-jrcdlvr9SKuJWus1aSbopUfuYngRiNbCIGPk0z-35yEYjh6CLMs"/>
+</div>
+<div>
+<p class="font-headline font-bold text-sm text-primary">Safari Chic: What to Pack for Kenya</p>
+<div class="flex items-center gap-3 mt-1">
+<span class="text-[10px] font-bold text-on-surface-variant/60 flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]" data-icon="event">event</span> Oct 12, 2023
+                                            </span>
+<span class="px-2 py-0.5 rounded-full text-[9px] font-bold bg-green-100 text-green-700 uppercase">Published</span>
+</div>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-400 hover:text-primary"><span class="material-symbols-outlined" data-icon="edit">edit</span></button>
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-400 hover:text-error"><span class="material-symbols-outlined" data-icon="delete">delete</span></button>
+</div>
+</div>
+<!-- Post Item 2 -->
+<div class="bg-surface-container-low rounded-xl p-4 flex items-center justify-between group hover:bg-surface-container transition-all">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-lg overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="aerial view of tropical beach with white sand and turquoise water meeting lush green palms" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhb91hXVx8UPBgM5MYbkADymdwnn8thAiR0nXnQlr2Sq9UHC97wOvzSM8p0xJftMQsoNp9QN3LK-s4pEHWXHM9AIbt4wATremIDZP_Q3wdgpi9p0N67ZwAU9_U167g-wGdrLmz0hvR-7pepgu9DF0dH57hBG8q9SQ2qa7auYI3y5fF4pGR-mS3tR1TsKrq7UTsel8qCJNpgG5st6D8En0scCBnznTvDVwqlw-nX1_Ya65z2l126O4xJo9DCZ0zn9mtxmiCGZhduyw-"/>
+</div>
+<div>
+<p class="font-headline font-bold text-sm text-primary">Obudu Cattle Ranch: Nigeria's Best Kept Secret</p>
+<div class="flex items-center gap-3 mt-1">
+<span class="text-[10px] font-bold text-on-surface-variant/60 flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]" data-icon="event">event</span> Oct 08, 2023
+                                            </span>
+<span class="px-2 py-0.5 rounded-full text-[9px] font-bold bg-orange-100 text-orange-700 uppercase">Draft</span>
+</div>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-400 hover:text-primary"><span class="material-symbols-outlined" data-icon="edit">edit</span></button>
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-400 hover:text-error"><span class="material-symbols-outlined" data-icon="delete">delete</span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sidebar Sidebar -->
+<div class="col-span-12 lg:col-span-4 space-y-8">
+<!-- Publishing Panel -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm space-y-6">
+<h4 class="font-headline font-bold text-sm text-on-surface border-b border-outline-variant/10 pb-4">Publishing Status</h4>
+<div class="flex items-center justify-between">
+<span class="text-xs text-on-surface-variant">Current Status</span>
+<span class="px-3 py-1 rounded-full text-[10px] font-bold bg-secondary-fixed text-on-secondary-fixed uppercase">Working Draft</span>
+</div>
+<div class="space-y-3">
+<button class="w-full py-3 bg-primary text-on-primary rounded-xl font-bold text-sm hover:bg-primary-container transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg" data-icon="cloud_upload">cloud_upload</span> Publish Story
+                            </button>
+<button class="w-full py-3 bg-surface-container-high text-on-surface-variant rounded-xl font-bold text-sm hover:bg-surface-container-highest transition-all">
+                                Save as Draft
+                            </button>
+</div>
+<div class="pt-4 flex items-center gap-2 text-xs text-slate-400">
+<span class="material-symbols-outlined text-sm" data-icon="sync">sync</span>
+                            Last saved 2 minutes ago
+                        </div>
+</div>
+<!-- Featured Image Upload -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm space-y-4">
+<h4 class="font-headline font-bold text-sm text-on-surface">Featured Image</h4>
+<div class="relative group aspect-video rounded-xl overflow-hidden bg-surface-container cursor-pointer">
+<img class="w-full h-full object-cover" data-alt="modern architecture in Lagos with sleek lines and glass reflections under a clear blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQUoXABgrRMv9U8vhXU7mY4U6IOtkSeb6wnAqULCfaUYUb4EY56sLs9u8Nq5XCJm8KTFIXLHmShn3WQfFdx9EC52GUMf6M0OrE6FWBwuM2_kjqkKIn3Y74ZZCn9q-wuF7U98P5BEGRbc2yR8xGIAkcszBkvoBqLT6Csz4PFPCsPEjN5Uf7_u_2CaTTS9CWe4rqqDi7QPD0bPA5VtguOip3PKvnjRu_sdj-KIp6-9zPDJyJBS3wTm87_YThhLyYYE65EyJQ1kjcDLAD"/>
+<div class="absolute inset-0 bg-primary/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-white font-bold text-sm flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="add_a_photo">add_a_photo</span> Change Image
+                                </span>
+</div>
+</div>
+<p class="text-[10px] text-slate-400 text-center">Recommended size: 1200x630px (PNG, JPG)</p>
+</div>
+<!-- Tags Section -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm space-y-4">
+<h4 class="font-headline font-bold text-sm text-on-surface">Search Metadata</h4>
+<div class="space-y-3">
+<div class="space-y-1">
+<label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/70">Tags</label>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-2.5 py-1 rounded-lg bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold flex items-center gap-1">
+                                        Lagos <button><span class="material-symbols-outlined text-[12px]" data-icon="close">close</span></button>
+</span>
+<span class="px-2.5 py-1 rounded-lg bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold flex items-center gap-1">
+                                        Nightlife <button><span class="material-symbols-outlined text-[12px]" data-icon="close">close</span></button>
+</span>
+<span class="px-2.5 py-1 rounded-lg bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold flex items-center gap-1">
+                                        Luxury <button><span class="material-symbols-outlined text-[12px]" data-icon="close">close</span></button>
+</span>
+<button class="px-2.5 py-1 rounded-lg border border-dashed border-outline-variant text-[10px] font-bold text-slate-400 hover:text-primary hover:border-primary transition-colors">
+                                        + Add Tag
+                                    </button>
+</div>
+</div>
+<div class="space-y-1 pt-2">
+<label class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant/70">SEO Description</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-xl px-4 py-2 text-xs focus:ring-1 ring-primary transition-all" rows="3">Discover the best-kept secrets of Lagos' luxury nightlife and cultural hubs with our curated guide for the global traveler.</textarea>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Spacer -->
+<div class="h-20"></div>
+</main>
+<!-- Contextual FAB (Shared Component Strategy) -->
+<button class="fixed bottom-8 right-8 w-14 h-14 bg-gradient-to-br from-secondary to-secondary-container text-on-secondary rounded-full shadow-2xl flex items-center justify-center group hover:scale-110 transition-transform z-50">
+<span class="material-symbols-outlined" data-icon="preview" style="font-variation-settings: 'FILL' 1;">preview</span>
+<span class="absolute right-16 bg-on-surface text-surface text-[10px] px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap font-bold">Preview Story</span>
+</button>
+</body></html>

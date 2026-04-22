@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ACE Voyages CMS - Create New Tour</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Satisfy&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e2e2e2",
+                        "surface": "#f9f9f9",
+                        "on-tertiary-container": "#fffeff",
+                        "on-surface-variant": "#414751",
+                        "primary": "#105fa3",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f9f9f9",
+                        "on-secondary-fixed-variant": "#6f3900",
+                        "surface-container": "#eeeeee",
+                        "surface-tint": "#1360a5",
+                        "surface-container-high": "#e8e8e8",
+                        "outline-variant": "#c1c7d2",
+                        "on-secondary-fixed": "#2f1500",
+                        "tertiary-fixed-dim": "#a2c9ff",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-container": "#3778be",
+                        "on-surface": "#1a1c1c",
+                        "on-secondary-container": "#6c3700",
+                        "secondary-container": "#ff9b43",
+                        "tertiary-fixed": "#d3e4ff",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#a2c9ff",
+                        "primary-fixed": "#d3e4ff",
+                        "primary-fixed-dim": "#a2c9ff",
+                        "on-tertiary-fixed": "#001c38",
+                        "on-error": "#ffffff",
+                        "inverse-surface": "#2f3131",
+                        "surface-container-low": "#f3f3f3",
+                        "background": "#f9f9f9",
+                        "tertiary": "#2b5f97",
+                        "surface-variant": "#e2e2e2",
+                        "secondary-fixed-dim": "#ffb77f",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#1a1c1c",
+                        "on-tertiary-fixed-variant": "#06487f",
+                        "on-primary-fixed": "#001c38",
+                        "outline": "#727782",
+                        "error-container": "#ffdad6",
+                        "secondary": "#914c00",
+                        "on-primary-fixed-variant": "#004881",
+                        "surface-dim": "#dadada",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#4778b1",
+                        "secondary-fixed": "#ffdcc4",
+                        "inverse-on-surface": "#f1f1f1",
+                        "on-primary-container": "#fffeff",
+                        "on-error-container": "#93000a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"],
+                        "handwriting": ["Satisfy"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- SideNavBar (Blueprint: SideNavBar) -->
+<aside class="flex flex-col h-full w-[280px] py-8 px-4 border-r border-transparent bg-slate-50 dark:bg-slate-950 fixed left-0 top-0 h-screen z-50">
+<div class="mb-10 px-4">
+<h1 class="font-bold text-lg text-blue-700 dark:text-blue-400 font-headline">ACE Voyages</h1>
+<p class="text-xs text-slate-500 font-medium uppercase tracking-widest">Digital Concierge CMS</p>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-manrope text-sm">Dashboard</span>
+</a>
+<!-- ACTIVE TAB: Tour Packages -->
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-blue-700 dark:text-blue-400 font-bold border-r-4 border-blue-700 dark:border-blue-400 bg-blue-50/50 dark:bg-blue-900/20 hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="travel_explore" style="font-variation-settings: 'FILL' 1;">travel_explore</span>
+<span class="font-manrope text-sm">Tour Packages</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="confirmation_number">confirmation_number</span>
+<span class="font-manrope text-sm">Bookings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="map">map</span>
+<span class="font-manrope text-sm">Destinations</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="campaign">campaign</span>
+<span class="font-manrope text-sm">Marketing</span>
+</a>
+</nav>
+<div class="mt-auto space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:bg-slate-100 dark:hover:bg-slate-900 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+<span class="font-manrope text-sm">Help Center</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:bg-slate-100 dark:hover:bg-slate-900 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span class="font-manrope text-sm">Log Out</span>
+</a>
+</div>
+</aside>
+<!-- TopNavBar (Blueprint: TopNavBar) -->
+<header class="fixed top-0 right-0 w-[calc(100%-280px)] z-40 flex justify-between items-center px-8 h-16 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex items-center gap-4">
+<div class="relative">
+<span class="absolute inset-y-0 left-3 flex items-center text-slate-400">
+<span class="material-symbols-outlined text-lg" data-icon="search">search</span>
+</span>
+<input class="pl-10 pr-4 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-full text-sm w-64 focus:ring-2 focus:ring-blue-500 transition-all" placeholder="Search resources..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2">
+<button class="p-2 rounded-full text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="p-2 rounded-full text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+</div>
+<div class="h-8 w-[1px] bg-slate-200 dark:bg-slate-800"></div>
+<button class="bg-primary text-on-primary px-5 py-2 rounded-full font-semibold text-sm hover:opacity-90 active:scale-95 transition-all shadow-md">
+                Publish Changes
+            </button>
+<div class="flex items-center gap-3 ml-2">
+<div class="w-8 h-8 rounded-full overflow-hidden border-2 border-primary/20">
+<img alt="Admin Profile Avatar" class="w-full h-full object-cover" data-alt="close-up portrait of a professional man with a friendly smile in a modern office environment with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfCZ5BMn7ANPRHzonip7P1zpL-AXGZDsOkMAlZXDQGe53Vg6npAMrsT5irSyqYE2j5wudLIJqZaQSopP-LCAwiuboe6-NUfslXPuLoHGwLqYuOsdDNwtKRxvBibCdRU8EburAbc1zEhH_PGE1z1pzVCSOtKH1nEsgtErw5h_bSLn4Hj27Om-zu6mjpnbjFrbfFZybtFU5mFJBQ5RBayn7S8YzkFAKZA2hbBSo6s2fAeFXBZLNKHEJjHs_X3W5F1faj7tNtmVPJBFbv"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="ml-[280px] pt-16 min-h-screen">
+<div class="max-w-6xl mx-auto p-12">
+<!-- Breadcrumbs & Step Indicator -->
+<div class="flex items-center justify-between mb-10">
+<div>
+<nav class="flex text-sm text-on-surface-variant mb-2 gap-2 items-center">
+<a class="hover:text-primary transition-colors" href="#">Tour Packages</a>
+<span class="material-symbols-outlined text-xs" data-icon="chevron_right">chevron_right</span>
+<span class="font-semibold text-primary">New Tour</span>
+</nav>
+<h2 class="text-4xl font-extrabold font-headline text-on-surface tracking-tight">Create New Tour</h2>
+<p class="font-handwriting text-2xl text-secondary mt-1">Start your journey here</p>
+</div>
+<!-- Progress Stepper -->
+<div class="flex items-center gap-4">
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold shadow-lg shadow-primary/20">1</div>
+<span class="text-[10px] mt-1 font-bold text-primary uppercase tracking-tighter">Details</span>
+</div>
+<div class="w-12 h-[2px] bg-primary-fixed mb-4"></div>
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-outline flex items-center justify-center font-bold">2</div>
+<span class="text-[10px] mt-1 font-bold text-outline uppercase tracking-tighter">Pricing</span>
+</div>
+<div class="w-12 h-[2px] bg-surface-container-highest mb-4"></div>
+<div class="flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-outline flex items-center justify-center font-bold">3</div>
+<span class="text-[10px] mt-1 font-bold text-outline uppercase tracking-tighter">Review</span>
+</div>
+</div>
+</div>
+<!-- Bento Grid Layout for Form -->
+<div class="grid grid-cols-12 gap-8 items-start">
+<!-- Main Form Section (Left & Center) -->
+<div class="col-span-12 lg:col-span-8 space-y-8">
+<!-- Primary Info Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="edit_note">edit_note</span>
+</div>
+<h3 class="text-xl font-bold font-headline">Core Information</h3>
+</div>
+<div class="space-y-6">
+<div class="group">
+<label class="block text-sm font-bold text-on-surface-variant mb-2 uppercase tracking-wide">Tour Name</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl px-4 py-4 text-on-surface focus:ring-2 focus:ring-primary transition-all placeholder:text-outline" placeholder="e.g. Serengeti Sunset Expedition" type="text"/>
+<p class="text-[11px] text-outline mt-2 italic px-1">Tip: Use evocative names that capture the essence of the experience.</p>
+</div>
+<div>
+<label class="block text-sm font-bold text-on-surface-variant mb-2 uppercase tracking-wide">Tour Description</label>
+<div class="bg-surface-container-high rounded-xl overflow-hidden focus-within:ring-2 focus-within:ring-primary transition-all">
+<!-- Rich Text Toolbar Sim -->
+<div class="flex items-center gap-2 px-4 py-2 border-b border-outline-variant/30 bg-surface-container/50">
+<button class="p-1 hover:bg-surface-container-highest rounded text-on-surface-variant"><span class="material-symbols-outlined text-lg" data-icon="format_bold">format_bold</span></button>
+<button class="p-1 hover:bg-surface-container-highest rounded text-on-surface-variant"><span class="material-symbols-outlined text-lg" data-icon="format_italic">format_italic</span></button>
+<button class="p-1 hover:bg-surface-container-highest rounded text-on-surface-variant"><span class="material-symbols-outlined text-lg" data-icon="format_list_bulleted">format_list_bulleted</span></button>
+<button class="p-1 hover:bg-surface-container-highest rounded text-on-surface-variant"><span class="material-symbols-outlined text-lg" data-icon="link">link</span></button>
+<div class="w-[1px] h-4 bg-outline-variant/50 mx-1"></div>
+<button class="p-1 hover:bg-surface-container-highest rounded text-on-surface-variant"><span class="material-symbols-outlined text-lg" data-icon="image">image</span></button>
+</div>
+<textarea class="w-full bg-transparent border-none rounded-b-xl px-4 py-4 text-on-surface focus:ring-0 placeholder:text-outline" placeholder="Describe the magical moments of this journey..." rows="8"></textarea>
+</div>
+</div>
+</div>
+</div>
+<!-- Logistics Section -->
+<div class="grid grid-cols-2 gap-8">
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined" data-icon="schedule">schedule</span>
+</div>
+<h3 class="text-xl font-bold font-headline">Duration</h3>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<label class="block text-[10px] font-bold text-outline mb-1 uppercase">Days</label>
+<input class="w-full bg-surface-container-high border-none rounded-lg px-4 py-3 text-center font-bold text-primary" type="number" value="7"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold text-outline mb-1 uppercase">Nights</label>
+<input class="w-full bg-surface-container-high border-none rounded-lg px-4 py-3 text-center font-bold text-primary" type="number" value="6"/>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined" data-icon="public">public</span>
+</div>
+<h3 class="text-xl font-bold font-headline">Destination</h3>
+</div>
+<div class="relative">
+<span class="absolute inset-y-0 left-3 flex items-center text-outline">
+<span class="material-symbols-outlined text-lg" data-icon="location_on">location_on</span>
+</span>
+<select class="w-full bg-surface-container-high border-none rounded-xl pl-10 pr-4 py-3 text-on-surface appearance-none focus:ring-2 focus:ring-primary font-medium">
+<option>Lagos, Nigeria</option>
+<option>Cape Town, South Africa</option>
+<option>Marrakesh, Morocco</option>
+<option>Nairobi, Kenya</option>
+<option>Zanzibar, Tanzania</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<!-- Sidebar Settings (Right) -->
+<aside class="col-span-12 lg:col-span-4 space-y-8">
+<!-- Category Selection -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-transparent">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed-dim flex items-center justify-center text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined" data-icon="category">category</span>
+</div>
+<h3 class="text-xl font-bold font-headline text-on-surface">Category</h3>
+</div>
+<div class="grid grid-cols-1 gap-3">
+<label class="flex items-center justify-between p-4 rounded-xl bg-secondary-fixed cursor-pointer transition-all hover:shadow-md group">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-secondary-fixed" data-icon="temple_buddhist">temple_buddhist</span>
+<span class="font-bold text-on-secondary-fixed">Culture</span>
+</div>
+<input checked="" class="text-secondary focus:ring-secondary" name="category" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-4 rounded-xl bg-surface-container-high cursor-pointer transition-all hover:bg-surface-container-highest group">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="hiking">hiking</span>
+<span class="font-bold text-on-surface-variant">Adventure</span>
+</div>
+<input class="text-primary focus:ring-primary" name="category" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-4 rounded-xl bg-surface-container-high cursor-pointer transition-all hover:bg-surface-container-highest group">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="favorite">favorite</span>
+<span class="font-bold text-on-surface-variant">Romance</span>
+</div>
+<input class="text-primary focus:ring-primary" name="category" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-4 rounded-xl bg-surface-container-high cursor-pointer transition-all hover:bg-surface-container-highest group">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="business_center">business_center</span>
+<span class="font-bold text-on-surface-variant">Business</span>
+</div>
+<input class="text-primary focus:ring-primary" name="category" type="radio"/>
+</label>
+</div>
+</div>
+<!-- Visual Context / Preview Card -->
+<div class="relative group overflow-hidden rounded-xl h-64 bg-slate-200">
+<img alt="Savanna landscape" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="vibrant african savanna landscape at sunset with silhouettes of acacia trees and elephants against a warm orange and purple sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaYsggoMdmJNhc8v_Gki5E-Er93KLCP3WzNusxJrRs8WxAFZke2d9ci8LL6EhQxzAyeA-NhMNCiMpbTAKqMsHgQXDWyFYKWR5rPTnnmY3cxUAHHETZSKY-XVN7hL64gPNh9M2hubvn44hoZ65t0FUtPsqC0eCj7WBUCcRohqp3VmQJesccMDSxper2D2_JgD1-g4BR-jhc9hNq_sxx5iizx-c052jLaKN-cUyI30x9OOdVxF8LQZ9-KKCmH_RCo2nnILz0bpM4vkzz"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
+<span class="text-white/80 text-[10px] font-bold uppercase tracking-widest mb-1">Preview Context</span>
+<h4 class="text-white font-bold text-lg leading-tight">Visualizing your masterpiece in the concierge ecosystem.</h4>
+</div>
+</div>
+<!-- CTA Actions -->
+<div class="space-y-4">
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary py-5 rounded-xl font-bold text-lg shadow-xl shadow-primary/30 hover:shadow-primary/40 hover:-translate-y-1 transition-all flex items-center justify-center gap-3">
+<span>Next: Pricing &amp; Itinerary</span>
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+<button class="w-full bg-surface-container-lowest text-primary py-4 rounded-xl font-bold text-sm border-2 border-primary/10 hover:bg-surface-container-low transition-all">
+                            Save Draft for Later
+                        </button>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<!-- FAB for quick context (Mobile Only Hidden via platform rule but present as per CMS logic) -->
+<div class="fixed bottom-8 right-8 md:hidden">
+<button class="bg-secondary-container text-on-secondary-container w-14 h-14 rounded-full flex items-center justify-center shadow-2xl active:scale-90 transition-all">
+<span class="material-symbols-outlined" data-icon="add">add</span>
+</button>
+</div>
+</body></html>

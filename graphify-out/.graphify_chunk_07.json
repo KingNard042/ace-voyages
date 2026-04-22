@@ -1,0 +1,623 @@
+{
+  "nodes": [
+    {
+      "id": "screen07_content_studio",
+      "label": "Content Studio Screen",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_ace_voyages_cms",
+      "label": "ACE Voyages CMS",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_article_editor",
+      "label": "Rich Text Article Editor",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_article_lagos_nightlife",
+      "label": "Article: The Ultimate Guide to Lagos Nightlife (Luxury)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_category_lifestyle_culture",
+      "label": "Category: Lifestyle & Culture",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_author_chioma_adebayo",
+      "label": "Author: Chioma Adebayo",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_publishing_status_panel",
+      "label": "Publishing Status Panel",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_status_working_draft",
+      "label": "Draft Status: Working Draft",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_publish_story_button",
+      "label": "Publish Story Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_save_as_draft_button",
+      "label": "Save as Draft Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_featured_image_panel",
+      "label": "Featured Image Panel",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_search_metadata_panel",
+      "label": "Search Metadata (SEO) Panel",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_seo_tags",
+      "label": "SEO Tags: Lagos, Nightlife, Luxury",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_seo_description",
+      "label": "SEO Meta Description Field",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_recent_stories_list",
+      "label": "Recent Stories List",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_story_safari_chic",
+      "label": "Recent Story: Safari Chic – What to Pack for Kenya",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_story_obudu_ranch",
+      "label": "Recent Story: Obudu Cattle Ranch – Nigeria's Best Kept Secret",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_nav_sidebar",
+      "label": "Admin Navigation Sidebar",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_nav_blog_active",
+      "label": "Navigation: Blog (Active)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_create_new_post_button",
+      "label": "Create New Post Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_view_public_blog_button",
+      "label": "View Public Blog Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_new_booking_button",
+      "label": "New Booking Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_toolbar_formatting",
+      "label": "Rich Text Formatting Toolbar (Bold, Italic, Underline, Link, Quote)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen07_search_bar",
+      "label": "Global Search Bar (Search blog posts)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_ace_voyages_cms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_article_editor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_article_editor",
+      "target": "screen07_article_lagos_nightlife",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_article_editor",
+      "target": "screen07_toolbar_formatting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_article_lagos_nightlife",
+      "target": "screen07_category_lifestyle_culture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_article_lagos_nightlife",
+      "target": "screen07_author_chioma_adebayo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_publishing_status_panel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_publishing_status_panel",
+      "target": "screen07_status_working_draft",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_publishing_status_panel",
+      "target": "screen07_publish_story_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_publishing_status_panel",
+      "target": "screen07_save_as_draft_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_featured_image_panel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_search_metadata_panel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_search_metadata_panel",
+      "target": "screen07_seo_tags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_search_metadata_panel",
+      "target": "screen07_seo_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_seo_tags",
+      "target": "screen07_article_lagos_nightlife",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_recent_stories_list",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_recent_stories_list",
+      "target": "screen07_story_safari_chic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_recent_stories_list",
+      "target": "screen07_story_obudu_ranch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_nav_sidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_nav_sidebar",
+      "target": "screen07_nav_blog_active",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_nav_sidebar",
+      "target": "screen07_new_booking_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_create_new_post_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_view_public_blog_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_content_studio",
+      "target": "screen07_search_bar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_article_lagos_nightlife",
+      "target": "screen07_status_working_draft",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen07_publish_story_button",
+      "target": "screen07_save_as_draft_button",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen07_article_lagos_nightlife",
+      "target": "screen07_story_safari_chic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "screen07_article_lagos_nightlife",
+      "target": "screen07_story_obudu_ranch",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "screen07_story_safari_chic",
+      "target": "screen07_story_obudu_ranch",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "screen07_nav_blog_active",
+      "target": "screen07_content_studio",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen07_featured_image_panel",
+      "target": "screen07_article_lagos_nightlife",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen07_view_public_blog_button",
+      "target": "screen07_recent_stories_list",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "screen07_create_new_post_button",
+      "target": "screen07_article_editor",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen07_search_bar",
+      "target": "screen07_recent_stories_list",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "screen07_new_booking_button",
+      "target": "screen07_ace_voyages_cms",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Blog_contentstudio/screen.png",
+      "source_location": null,
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

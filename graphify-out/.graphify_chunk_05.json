@@ -1,0 +1,645 @@
+{
+  "nodes": [
+    {
+      "id": "screen_TourCreationWizard",
+      "label": "Tour Creation Wizard",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_PricingAndDetailedItineraryStep",
+      "label": "Pricing & Detailed Itinerary Step (Step 2 of 3)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_PricingSetupPanel",
+      "label": "Pricing Setup Panel",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_BasePriceField",
+      "label": "Base Price Field (₦450,000)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_DiscountedPriceField",
+      "label": "Discounted Price Field (₦385,000)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_IncludeVATToggle",
+      "label": "Include VAT (7.5%) Toggle",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_EarlyBirdPromoCheckbox",
+      "label": "Early Bird Promo Checkbox",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_PricingTipCallout",
+      "label": "Pricing Tip Callout (Discounted Price Conversion Insight)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_ItineraryBuilderPanel",
+      "label": "Itinerary Builder Panel",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_AddDayButton",
+      "label": "Add Day Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_ItineraryDayCard_ArrivalSunset",
+      "label": "Day 1 Itinerary Card: Arrival & Sunset Reception",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_ItineraryDayCard_HistoricalBadagry",
+      "label": "Day 2 Itinerary Card: Historical Tour of Badagry",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_InclusionTag_DinnerIncluded",
+      "label": "Inclusion Tag: Dinner Included",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_InclusionTag_LuxuryTransfer",
+      "label": "Inclusion Tag: Luxury Transfer",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_InclusionTag_LunchIncluded",
+      "label": "Inclusion Tag: Lunch Included",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_InclusionTag_GuidedEntry",
+      "label": "Inclusion Tag: Guided Entry",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_WizardStepIndicator",
+      "label": "3-Step Wizard Progress Indicator",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_Step1_BasicInfo",
+      "label": "Wizard Step 1: Basic Info",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_Step2_PricingItinerary",
+      "label": "Wizard Step 2: Pricing & Itinerary (Active)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_Step3_MediaSEO",
+      "label": "Wizard Step 3: Media & SEO",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_BackToBasicInfoButton",
+      "label": "Back to Basic Info Navigation Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_SaveAsDraftButton",
+      "label": "Save as Draft Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_NextMediaSEOButton",
+      "label": "Next: Media & SEO Button",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_AdminSidebar",
+      "label": "Admin Sidebar Navigation",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_PublishChangesButton",
+      "label": "Publish Changes Button (Top Bar)",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "screen_AceVoyagesAdminApp",
+      "label": "ACE Voyages Admin Application",
+      "file_type": "image",
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "screen_AceVoyagesAdminApp",
+      "target": "screen_AdminSidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_AceVoyagesAdminApp",
+      "target": "screen_TourCreationWizard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_AceVoyagesAdminApp",
+      "target": "screen_PublishChangesButton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_TourCreationWizard",
+      "target": "screen_PricingAndDetailedItineraryStep",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_TourCreationWizard",
+      "target": "screen_WizardStepIndicator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_WizardStepIndicator",
+      "target": "screen_Step1_BasicInfo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_WizardStepIndicator",
+      "target": "screen_Step2_PricingItinerary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_WizardStepIndicator",
+      "target": "screen_Step3_MediaSEO",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingAndDetailedItineraryStep",
+      "target": "screen_PricingSetupPanel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingAndDetailedItineraryStep",
+      "target": "screen_ItineraryBuilderPanel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingSetupPanel",
+      "target": "screen_BasePriceField",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingSetupPanel",
+      "target": "screen_DiscountedPriceField",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingSetupPanel",
+      "target": "screen_IncludeVATToggle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingSetupPanel",
+      "target": "screen_EarlyBirdPromoCheckbox",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingSetupPanel",
+      "target": "screen_PricingTipCallout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_ItineraryBuilderPanel",
+      "target": "screen_AddDayButton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_ItineraryBuilderPanel",
+      "target": "screen_ItineraryDayCard_ArrivalSunset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_ItineraryBuilderPanel",
+      "target": "screen_ItineraryDayCard_HistoricalBadagry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_ItineraryDayCard_ArrivalSunset",
+      "target": "screen_InclusionTag_DinnerIncluded",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_ItineraryDayCard_ArrivalSunset",
+      "target": "screen_InclusionTag_LuxuryTransfer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_ItineraryDayCard_HistoricalBadagry",
+      "target": "screen_InclusionTag_LunchIncluded",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_ItineraryDayCard_HistoricalBadagry",
+      "target": "screen_InclusionTag_GuidedEntry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingAndDetailedItineraryStep",
+      "target": "screen_BackToBasicInfoButton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingAndDetailedItineraryStep",
+      "target": "screen_SaveAsDraftButton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingAndDetailedItineraryStep",
+      "target": "screen_NextMediaSEOButton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_BackToBasicInfoButton",
+      "target": "screen_Step1_BasicInfo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_NextMediaSEOButton",
+      "target": "screen_Step3_MediaSEO",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_PricingTipCallout",
+      "target": "screen_DiscountedPriceField",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_DiscountedPriceField",
+      "target": "screen_BasePriceField",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "screen_IncludeVATToggle",
+      "target": "screen_BasePriceField",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_EarlyBirdPromoCheckbox",
+      "target": "screen_DiscountedPriceField",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "screen_PricingAndDetailedItineraryStep",
+      "target": "screen_Step2_PricingItinerary",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "screen_SaveAsDraftButton",
+      "target": "screen_TourCreationWizard",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "screen_ItineraryDayCard_ArrivalSunset",
+      "target": "screen_ItineraryDayCard_HistoricalBadagry",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "screen_AddDayButton",
+      "target": "screen_ItineraryBuilderPanel",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "AceVoyages Design/stitch_ace_voyages_Admin_Tours/stitch_ace_voyages_Tour_Creation_Flow/stitch_ace_voyages_Tour_Flow_Creation/create_tour_pricing_itinerary/screen.png",
+      "source_location": null,
+      "weight": 0.9
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

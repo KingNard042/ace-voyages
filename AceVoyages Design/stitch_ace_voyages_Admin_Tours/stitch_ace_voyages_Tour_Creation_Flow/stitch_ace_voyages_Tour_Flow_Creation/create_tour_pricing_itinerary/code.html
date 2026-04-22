@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Create New Tour - Pricing &amp; Itinerary | ACE Voyages CMS</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;family=Satisfy&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e2e2e2",
+                        "surface": "#f9f9f9",
+                        "on-tertiary-container": "#fffeff",
+                        "on-surface-variant": "#414751",
+                        "primary": "#105fa3",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f9f9f9",
+                        "on-secondary-fixed-variant": "#6f3900",
+                        "surface-container": "#eeeeee",
+                        "surface-tint": "#1360a5",
+                        "surface-container-high": "#e8e8e8",
+                        "outline-variant": "#c1c7d2",
+                        "on-secondary-fixed": "#2f1500",
+                        "tertiary-fixed-dim": "#a2c9ff",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-container": "#3778be",
+                        "on-surface": "#1a1c1c",
+                        "on-secondary-container": "#6c3700",
+                        "secondary-container": "#ff9b43",
+                        "tertiary-fixed": "#d3e4ff",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#a2c9ff",
+                        "primary-fixed": "#d3e4ff",
+                        "primary-fixed-dim": "#a2c9ff",
+                        "on-tertiary-fixed": "#001c38",
+                        "on-error": "#ffffff",
+                        "inverse-surface": "#2f3131",
+                        "surface-container-low": "#f3f3f3",
+                        "background": "#f9f9f9",
+                        "tertiary": "#2b5f97",
+                        "surface-variant": "#e2e2e2",
+                        "secondary-fixed-dim": "#ffb77f",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#1a1c1c",
+                        "on-tertiary-fixed-variant": "#06487f",
+                        "on-primary-fixed": "#001c38",
+                        "outline": "#727782",
+                        "error-container": "#ffdad6",
+                        "secondary": "#914c00",
+                        "on-primary-fixed-variant": "#004881",
+                        "surface-dim": "#dadada",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#4778b1",
+                        "secondary-fixed": "#ffdcc4",
+                        "inverse-on-surface": "#f1f1f1",
+                        "on-primary-container": "#fffeff",
+                        "on-error-container": "#93000a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #e2e2e2; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- SideNavBar -->
+<aside class="flex flex-col h-full w-[280px] py-8 px-4 border-r border-transparent fixed left-0 top-0 bg-slate-50 dark:bg-slate-950 z-50">
+<div class="mb-10 px-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-lg overflow-hidden">
+<img alt="ACE Voyages Logo" class="w-full h-full object-cover" data-alt="minimalist professional travel agency logo with abstract geometric shapes in blue and orange" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChT_91e3fBaRQpEvc1px4X_lWg62U2vTAUT_WXSqgAx3zxq4dHHd38de9IDLuNKT6IGJNKLZ9fU7Q8FmrmS27FaXZ5RxcWkIHvUSHM4ZtmNEYD4SZlc24HVutFdz7y8kMVyRE4tEVAiz_Muh-9gWJ6U8zpE-hhQtAH2lERxqK19ISBDfnhfvpCvtQXyzMuvhFeCsPJCoU0L_fsiaQY8j8zuv5M9AJOO13Cm_htziYxfflIrhKLQ2jWe-J4kzPww9f6hbs7JeprH9xE"/>
+</div>
+<div>
+<h1 class="font-bold text-lg text-blue-700 dark:text-blue-400 leading-tight">ACE Voyages</h1>
+<p class="text-xs text-slate-500 font-medium">Digital Concierge CMS</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-blue-700 dark:text-blue-400 font-bold border-r-4 border-blue-700 dark:border-blue-400 bg-blue-50/50 dark:bg-blue-900/20 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">travel_explore</span>
+<span>Tour Packages</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">confirmation_number</span>
+<span>Bookings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">map</span>
+<span>Destinations</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">campaign</span>
+<span>Marketing</span>
+</a>
+</nav>
+<div class="mt-auto pt-8 border-t border-slate-200 dark:border-slate-800 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all" href="#">
+<span class="material-symbols-outlined">help</span>
+<span>Help Center</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 hover:bg-slate-100 dark:hover:bg-slate-900 transition-all" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span>Log Out</span>
+</a>
+</div>
+</aside>
+<!-- TopNavBar -->
+<header class="fixed top-0 right-0 w-[calc(100%-280px)] z-40 flex justify-between items-center px-8 h-16 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex items-center gap-4">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+<input class="pl-10 pr-4 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-full text-sm focus:ring-2 focus:ring-primary w-64 transition-all" placeholder="Search resources..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-2 rounded-full text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+<div class="h-8 w-[1px] bg-slate-200 dark:bg-slate-700"></div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-manrope text-sm font-semibold shadow-md active:scale-95 transition-all">
+                Publish Changes
+            </button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="ml-[280px] pt-24 pb-12 px-8 min-h-screen">
+<div class="max-w-5xl mx-auto">
+<!-- Stepper Header -->
+<div class="mb-12 text-center">
+<span class="font-headline text-primary font-bold tracking-widest text-xs uppercase mb-2 block">Step 2 of 3</span>
+<h2 class="text-3xl font-headline font-extrabold text-on-surface mb-8">Pricing &amp; Detailed Itinerary</h2>
+<div class="flex items-center justify-center gap-4">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-sm">
+<span class="material-symbols-outlined text-sm">check</span>
+</div>
+<span class="text-sm font-medium text-slate-500">Basic Info</span>
+</div>
+<div class="w-12 h-0.5 bg-primary"></div>
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-extrabold shadow-lg shadow-primary/20">2</div>
+<span class="text-sm font-bold text-on-surface">Pricing &amp; Itinerary</span>
+</div>
+<div class="w-12 h-0.5 bg-slate-200"></div>
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-slate-200 text-slate-400 flex items-center justify-center font-bold text-sm">3</div>
+<span class="text-sm font-medium text-slate-400">Media &amp; SEO</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Left Column: Pricing Section -->
+<div class="lg:col-span-1 space-y-8">
+<section class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-transparent">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">payments</span>
+<h3 class="font-headline font-bold text-xl">Pricing Setup</h3>
+</div>
+<div class="space-y-6">
+<div>
+<label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Base Price (NGN)</label>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 font-bold text-slate-400">₦</span>
+<input class="w-full pl-10 pr-4 py-3 bg-surface-container-high rounded-xl border-none focus:ring-2 focus:ring-primary font-bold text-lg" type="text" value="450,000"/>
+</div>
+<p class="text-[10px] text-slate-400 mt-2">Standard retail price per person before any discounts.</p>
+</div>
+<div>
+<label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Discounted Price (NGN)</label>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 font-bold text-primary">₦</span>
+<input class="w-full pl-10 pr-4 py-3 bg-primary/5 rounded-xl border-none focus:ring-2 focus:ring-primary font-bold text-lg text-primary placeholder-primary/30" placeholder="385,000" type="text"/>
+</div>
+<p class="text-[10px] text-primary/70 mt-2">Optional. If set, this will be the active price displayed.</p>
+</div>
+<div class="pt-4 border-t border-slate-100">
+<div class="flex items-center justify-between mb-4">
+<span class="text-sm font-medium text-slate-600">Include VAT (7.5%)</span>
+<button class="w-10 h-5 bg-primary rounded-full relative">
+<div class="absolute right-1 top-1 w-3 h-3 bg-white rounded-full"></div>
+</button>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium text-slate-600">Early Bird Promo</span>
+<button class="w-10 h-5 bg-slate-200 rounded-full relative">
+<div class="absolute left-1 top-1 w-3 h-3 bg-white rounded-full"></div>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-secondary-fixed p-6 rounded-xl relative overflow-hidden">
+<div class="relative z-10">
+<p class="font-headline font-bold text-on-secondary-fixed mb-1">Pricing Tip</p>
+<p class="text-sm text-on-secondary-fixed-variant leading-relaxed">Adding a "Discounted Price" increases conversion by up to 34% for luxury tours in the Lagos market.</p>
+</div>
+<span class="material-symbols-outlined absolute -right-4 -bottom-4 text-8xl text-on-secondary-fixed/10 rotate-12">lightbulb</span>
+</section>
+</div>
+<!-- Right Column: Itinerary Builder -->
+<div class="lg:col-span-2 space-y-8">
+<section class="bg-surface-container-lowest p-8 rounded-xl shadow-sm">
+<div class="flex items-center justify-between mb-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">route</span>
+<h3 class="font-headline font-bold text-xl">Itinerary Builder</h3>
+</div>
+<button class="flex items-center gap-2 px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-bold hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined text-sm">add</span>
+                                Add Day
+                            </button>
+</div>
+<!-- Itinerary Timeline -->
+<div class="relative space-y-12 before:absolute before:left-[19px] before:top-2 before:bottom-2 before:w-[2px] before:bg-primary-fixed">
+<!-- Day 1 -->
+<div class="relative pl-12">
+<div class="absolute left-0 top-0 w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary font-bold text-xs shadow-lg z-10">01</div>
+<div class="bg-surface-container-low p-6 rounded-xl relative group hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between mb-4">
+<div class="flex-1">
+<input class="w-full bg-transparent border-none p-0 text-lg font-headline font-bold text-on-surface focus:ring-0 placeholder-slate-400" type="text" value="Arrival &amp; Sunset Reception"/>
+<p class="text-xs font-medium text-primary mt-1">Lagos Murtala Muhammed Airport</p>
+</div>
+<button class="text-slate-300 hover:text-error transition-colors">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+<textarea class="w-full bg-surface-container-lowest border-none rounded-lg p-4 text-sm text-on-surface-variant focus:ring-2 focus:ring-primary/20 resize-none" rows="3">Private chauffeur pickup from the airport. Check-in at the Wheatbaker Hotel followed by an exclusive rooftop sunset cocktail hour overlooking the Atlantic.</textarea>
+<div class="mt-4 flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold rounded-full uppercase">Dinner Included</span>
+<span class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold rounded-full uppercase">Luxury Transfer</span>
+</div>
+</div>
+</div>
+<!-- Day 2 -->
+<div class="relative pl-12">
+<div class="absolute left-0 top-0 w-10 h-10 rounded-full bg-surface-container-highest border-2 border-primary-fixed flex items-center justify-center text-primary font-bold text-xs z-10">02</div>
+<div class="bg-surface-container-low p-6 rounded-xl relative group hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between mb-4">
+<div class="flex-1">
+<input class="w-full bg-transparent border-none p-0 text-lg font-headline font-bold text-on-surface focus:ring-0" type="text" value="Historical Tour of Badagry"/>
+<p class="text-xs font-medium text-primary mt-1">Heritage District</p>
+</div>
+<button class="text-slate-300 hover:text-error transition-colors">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+<textarea class="w-full bg-surface-container-lowest border-none rounded-lg p-4 text-sm text-on-surface-variant focus:ring-2 focus:ring-primary/20 resize-none" rows="3">A deep dive into the history of Nigeria. Visit the first storey building and the Point of No Return. Lunch at a local heritage site.</textarea>
+<div class="mt-4 flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold rounded-full uppercase">Lunch Included</span>
+<span class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold rounded-full uppercase">Guided Entry</span>
+</div>
+</div>
+</div>
+<!-- Day 3 (Add New Placeholder) -->
+<div class="relative pl-12 opacity-60">
+<div class="absolute left-0 top-0 w-10 h-10 rounded-full bg-slate-100 border-2 border-dashed border-slate-300 flex items-center justify-center text-slate-400 font-bold text-xs z-10">03</div>
+<button class="w-full border-2 border-dashed border-slate-200 py-8 rounded-xl flex flex-col items-center justify-center gap-2 text-slate-400 hover:border-primary/50 hover:text-primary transition-all bg-slate-50/50">
+<span class="material-symbols-outlined text-3xl">add_circle</span>
+<span class="text-sm font-bold">Define Day 3 Activities</span>
+</button>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Sticky Footer Actions -->
+<div class="mt-12 flex items-center justify-between pt-8 border-t border-slate-200">
+<button class="flex items-center gap-2 px-8 py-3 rounded-xl font-bold text-slate-600 hover:bg-slate-100 transition-all active:scale-95">
+<span class="material-symbols-outlined">arrow_back</span>
+                    Back to Basic Info
+                </button>
+<div class="flex gap-4">
+<button class="px-8 py-3 rounded-xl font-bold text-primary hover:bg-primary/5 transition-all">
+                        Save as Draft
+                    </button>
+<button class="flex items-center gap-2 px-10 py-3 rounded-xl bg-primary text-on-primary font-bold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all active:scale-95">
+                        Next: Media &amp; SEO
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Contextual FAB (Hidden as per hierarchy rules for detailed creator pages) -->
+</body></html>

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import {
   LayoutDashboard, Plane, Map, Globe, FileText,
-  Settings, Users, Menu, X, Plus,
+  Settings, Users, Menu, X, Plus, Inbox,
 } from 'lucide-react'
 import { canAccess, type AdminRole, type AdminFeature } from '@/lib/admin/access'
 import { supabase } from '@/lib/supabase/client'
@@ -20,6 +20,7 @@ interface NavItem {
 
 const MAIN_NAV: NavItem[] = [
   { feature: 'dashboard',    label: 'Dashboard', href: '/admin/dashboard',      icon: LayoutDashboard },
+  { feature: 'leads',        label: 'Leads',     href: '/admin/leads',          icon: Inbox },
   { feature: 'bookings',     label: 'Flights',   href: '/admin/bookings',       icon: Plane },
   { feature: 'tours',        label: 'Tours',     href: '/admin/tours',          icon: Map },
   { feature: 'visa_services',label: 'Visas',     href: '/admin/visa-services',  icon: Globe },

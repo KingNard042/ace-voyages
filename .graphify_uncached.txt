@@ -1,0 +1,88 @@
+eslint.config.mjs
+next-env.d.ts
+next.config.ts
+postcss.config.mjs
+scripts\setup-admin.mjs
+src\proxy.ts
+src\app\layout.tsx
+src\app\page.tsx
+src\app\admin\page.tsx
+src\app\admin\(protected)\layout.tsx
+src\app\admin\(protected)\dashboard\AgentDashboard.tsx
+src\app\admin\(protected)\dashboard\ManagerDashboard.tsx
+src\app\admin\(protected)\dashboard\page.tsx
+src\app\admin\(protected)\dashboard\SuperAdminDashboard.tsx
+src\app\admin\(protected)\tours\page.tsx
+src\app\admin\(protected)\tours\tourActions.ts
+src\app\admin\(protected)\tours\ToursClient.tsx
+src\app\admin\(protected)\tours\new\actions.ts
+src\app\admin\(protected)\tours\new\CreateTourWizard.tsx
+src\app\admin\(protected)\tours\new\page.tsx
+src\app\admin\(protected)\tours\new\Step1Details.tsx
+src\app\admin\(protected)\tours\new\Step2Pricing.tsx
+src\app\admin\(protected)\tours\new\Step3Media.tsx
+src\app\admin\(protected)\tours\new\types.ts
+src\app\admin\(protected)\tours\[id]\edit\EditTourForm.tsx
+src\app\admin\(protected)\tours\[id]\edit\page.tsx
+src\app\admin\login\layout.tsx
+src\app\admin\login\page.tsx
+src\app\api\admin\login\route.ts
+src\app\services\page.tsx
+src\components\admin\AdminContext.tsx
+src\components\admin\AdminSidebarClient.tsx
+src\components\admin\NotificationBell.tsx
+src\components\admin\RoleGate.tsx
+src\components\admin\SessionGuard.tsx
+src\components\layout\Footer.tsx
+src\components\layout\Navbar.tsx
+src\components\layout\PublicLayout.tsx
+src\components\ui\Badge.tsx
+src\components\ui\Button.tsx
+src\components\ui\Card.tsx
+src\components\ui\FAQAccordion.tsx
+src\components\ui\Input.tsx
+src\components\ui\NewsletterForm.tsx
+src\components\ui\SectionHeader.tsx
+src\components\ui\TourCard.tsx
+src\components\ui\WhatsAppButton.tsx
+src\lib\claude.ts
+src\lib\content.ts
+src\lib\utils.ts
+src\lib\whatsapp.ts
+src\lib\admin\access.ts
+src\lib\admin\auth.ts
+src\lib\email\confirmationEmail.ts
+src\lib\supabase\client.ts
+src\lib\supabase\server.ts
+AGENTS.md
+CLAUDE.md
+PROJECT.md
+README.md
+AceVoyages Design\DESIGN (1).md
+AceVoyages Design\stitch_ace_voyages_admin\code.html
+AceVoyages Design\stitch_ace_voyages_admin\DESIGN.md
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\stitch_ace_voyages_Tour_Creation_Flow\stitch_ace_voyages_Tour_Flow_Creation\azure_horizon\DESIGN.md
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\stitch_ace_voyages_Tour_Creation_Flow\stitch_ace_voyages_Tour_Flow_Creation\create_tour_basic_details\code.html
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\stitch_ace_voyages_Tour_Creation_Flow\stitch_ace_voyages_Tour_Flow_Creation\create_tour_media_seo\code.html
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\stitch_ace_voyages_Tour_Creation_Flow\stitch_ace_voyages_Tour_Flow_Creation\create_tour_pricing_itinerary\code.html
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\Tour page design\code.html
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\Tour page design\DESIGN.md
+AceVoyages Design\stitch_ace_voyages_Blog_contentstudio\code.html
+AceVoyages Design\stitch_ace_voyages_Blog_contentstudio\DESIGN.md
+AceVoyages Design\stitch_ace_voyages_Homepage\code.html
+AceVoyages Design\stitch_ace_voyages_Homepage\DESIGN.md
+AceVoyages Design\stitch_ace_voyages_services page\code.html
+AceVoyages Design\stitch_ace_voyages_services page\DESIGN.md
+AceVoyages Design\stitch_ace_voyages_admin\screen.png
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\stitch_ace_voyages_Tour_Creation_Flow\stitch_ace_voyages_Tour_Flow_Creation\create_tour_basic_details\screen.png
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\stitch_ace_voyages_Tour_Creation_Flow\stitch_ace_voyages_Tour_Flow_Creation\create_tour_media_seo\screen.png
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\stitch_ace_voyages_Tour_Creation_Flow\stitch_ace_voyages_Tour_Flow_Creation\create_tour_pricing_itinerary\screen.png
+AceVoyages Design\stitch_ace_voyages_Admin_Tours\Tour page design\screen.png
+AceVoyages Design\stitch_ace_voyages_Blog_contentstudio\screen.png
+AceVoyages Design\stitch_ace_voyages_Homepage\screen.png
+AceVoyages Design\stitch_ace_voyages_services page\screen.png
+public\file.svg
+public\globe.svg
+public\next.svg
+public\vercel.svg
+public\window.svg
