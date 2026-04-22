@@ -7,6 +7,7 @@ import RoleGate from '@/components/admin/RoleGate'
 import SessionGuard from '@/components/admin/SessionGuard'
 import NotificationBell from '@/components/admin/NotificationBell'
 import AdminSidebarClient from '@/components/admin/AdminSidebarClient'
+import Toaster from '@/components/ui/Toaster'
 
 export const metadata = { title: 'Admin — ACE Voyages' }
 
@@ -62,6 +63,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
           </div>
         </div>
       </SessionGuard>
+      <Toaster />
     </AdminProvider>
   )
 }
