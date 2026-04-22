@@ -63,6 +63,8 @@ export async function saveTour(
         .eq('tour_id', draftId)
       if (error) return { success: false, error: error.message }
       revalidatePath('/admin/tours')
+      revalidatePath('/tours')
+      revalidatePath('/')
       return { success: true, id: draftId }
     }
 
@@ -73,6 +75,8 @@ export async function saveTour(
       .single()
     if (error) return { success: false, error: error.message }
     revalidatePath('/admin/tours')
+    revalidatePath('/tours')
+    revalidatePath('/')
     return { success: true, id: data.tour_id }
   } catch (e) {
     return { success: false, error: e instanceof Error ? e.message : 'Unexpected error' }
@@ -91,6 +95,8 @@ export async function updateTour(
     if (error) return { success: false, error: error.message }
     revalidatePath('/admin/tours')
     revalidatePath(`/admin/tours/${tourId}/edit`)
+    revalidatePath('/tours')
+    revalidatePath('/')
     return { success: true, id: tourId }
   } catch (e) {
     return { success: false, error: e instanceof Error ? e.message : 'Unexpected error' }

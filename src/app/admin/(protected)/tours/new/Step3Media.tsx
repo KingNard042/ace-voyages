@@ -116,23 +116,13 @@ function LivePreview({ form }: { form: FormState }) {
   )
 }
 
-async function uploadToCloudinary(file: File): Promise<string> {
-  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
-  const uploadPreset = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET
-  if (!cloudName || !uploadPreset) {
-    throw new Error('Image uploads not configured. Add NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME and NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET to .env.local')
-  }
+async function uploadImage(file: File): Promise<string> {
   const fd = new FormData()
   fd.append('file', file)
-  fd.append('upload_preset', uploadPreset)
-  fd.append('folder', 'ace-voyages/tours')
-  const res = await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, {
-    method: 'POST',
-    body: fd,
-  })
+  const res = await fetch('/api/admin/upload', { method: 'POST', body: fd })
   const json = await res.json()
-  if (json.error) throw new Error(json.error.message)
-  return json.secure_url as string
+  if (!res.ok) throw new Error(json.error ?? 'Upload failed')
+  return json.url as string
 }
 
 export default function Step3Media({ form, update, onPublish, onBack, isPending }: Props) {
@@ -154,7 +144,7 @@ export default function Step3Media({ form, update, onPublish, onBack, isPending 
 
     for (const file of Array.from(files)) {
       try {
-        const url = await uploadToCloudinary(file)
+        const url = await uploadImage(file)
         currentUrls = [...currentUrls, url]
         update('gallery_urls', currentUrls)
         if (!currentHero) {

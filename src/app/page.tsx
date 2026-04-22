@@ -128,7 +128,7 @@ export default async function HomePage() {
           image: t.hero_image_url ?? 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
           name: t.title,
           destination: `${t.destination_city}, ${t.destination_country}`,
-          price: t.price,
+          price: t.price_naira,
           duration: `${t.duration_days} day${t.duration_days === 1 ? '' : 's'}`,
           badge: t.is_featured ? 'Featured' : undefined,
           slug: t.slug,
@@ -139,7 +139,7 @@ export default async function HomePage() {
     cmsTestimonials.length > 0
       ? cmsTestimonials.map((t) => ({
           name: t.customer_name,
-          location: t.city ?? 'Nigeria',
+          location: t.customer_city ?? 'Nigeria',
           quote: t.quote,
         }))
       : FALLBACK_TESTIMONIALS
