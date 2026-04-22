@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Satisfy&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-container": "#fffeff",
+                    "primary-fixed-dim": "#a2c9ff",
+                    "tertiary-container": "#4778b1",
+                    "inverse-on-surface": "#f1f1f1",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#d3e4ff",
+                    "on-primary": "#ffffff",
+                    "surface-container-high": "#e8e8e8",
+                    "secondary-fixed-dim": "#ffb77f",
+                    "on-surface": "#1a1c1c",
+                    "primary-fixed": "#d3e4ff",
+                    "surface-tint": "#1360a5",
+                    "primary": "#105fa3",
+                    "error": "#ba1a1a",
+                    "secondary-fixed": "#ffdcc4",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-surface-variant": "#414751",
+                    "background": "#f9f9f9",
+                    "secondary": "#914c00",
+                    "on-secondary-fixed": "#2f1500",
+                    "surface-bright": "#f9f9f9",
+                    "on-primary-fixed": "#001c38",
+                    "on-tertiary-fixed-variant": "#06487f",
+                    "outline": "#727782",
+                    "inverse-primary": "#a2c9ff",
+                    "surface-container": "#eeeeee",
+                    "on-error-container": "#93000a",
+                    "tertiary": "#2b5f97",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed-dim": "#a2c9ff",
+                    "outline-variant": "#c1c7d2",
+                    "surface-dim": "#dadada",
+                    "error-container": "#ffdad6",
+                    "secondary-container": "#ff9b43",
+                    "surface-variant": "#e2e2e2",
+                    "on-secondary-fixed-variant": "#6f3900",
+                    "on-background": "#1a1c1c",
+                    "primary-container": "#3778be",
+                    "surface": "#f9f9f9",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed-variant": "#004881",
+                    "on-secondary-container": "#6c3700",
+                    "inverse-surface": "#2f3131",
+                    "on-primary-container": "#fffeff",
+                    "on-tertiary-fixed": "#001c38",
+                    "surface-container-low": "#f3f3f3"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "1.0rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope", "sans-serif"],
+                    "display": ["Manrope", "sans-serif"],
+                    "body": ["Inter", "sans-serif"],
+                    "label": ["Inter", "sans-serif"],
+                    "script": ["Satisfy", "cursive"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-shift {
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-surface">
+<!-- TopNavBar (Shared Component) -->
+<header class="bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_12px_40px_rgba(26,28,28,0.06)] docked full-width top-0 sticky z-50">
+<nav class="flex justify-between items-center px-8 h-20 w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="text-2xl font-black text-blue-700 dark:text-blue-400 font-headline">ACE Voyages</span>
+</div>
+<div class="hidden md:flex items-center gap-8 font-headline tracking-tight text-sm font-semibold">
+<a class="text-slate-600 dark:text-slate-300 hover:text-blue-700 transition-colors" href="#">Home</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-blue-700 transition-colors" href="#">Services</a>
+<a class="text-orange-600 dark:text-orange-400 font-bold relative after:absolute after:-bottom-2 after:left-0 after:w-full after:h-0.5 after:bg-orange-500" href="#">Blog</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-blue-700 transition-colors" href="#">About Us</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:opacity-80 transition-opacity duration-300 text-slate-600">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+<button class="p-2 hover:opacity-80 transition-opacity duration-300 text-slate-600">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+</button>
+<button class="ml-2 bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-xl font-headline font-bold text-sm scale-95 hover:scale-100 duration-200 ease-in-out">
+                    Plan My Trip
+                </button>
+</div>
+</nav>
+</header>
+<main class="max-w-7xl mx-auto px-8 py-16">
+<!-- Hero Section: Editorial Focus -->
+<section class="mb-20">
+<div class="relative group">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+<div class="md:col-span-7 order-2 md:order-1">
+<span class="font-script text-secondary text-2xl mb-4 block">Your Journey</span>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tight text-on-surface mb-6 leading-tight">
+                            Perspectives on <span class="text-primary">Modern Exploration</span>
+</h1>
+<p class="text-on-surface-variant text-lg max-w-xl mb-8 leading-relaxed">
+                            Discover curated guides, insider stories, and the latest travel trends from the heart of Nigeria to the farthest corners of the globe.
+                        </p>
+<div class="flex gap-4">
+<span class="px-4 py-1.5 bg-secondary-fixed text-on-secondary-fixed rounded-full text-xs font-bold uppercase tracking-wider">Featured Story</span>
+<span class="px-4 py-1.5 bg-tertiary-fixed text-on-tertiary-fixed rounded-full text-xs font-bold uppercase tracking-wider">Luxury Travel</span>
+</div>
+</div>
+<div class="md:col-span-5 order-1 md:order-2">
+<div class="rounded-xl overflow-hidden shadow-2xl relative aspect-[4/5]">
+<img alt="Modern luxury travel" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110" data-alt="A stylish traveler looking out from a high-end lounge over a sunset horizon in Lagos, warm amber lighting and modern architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1m1QEfEU3qua3oII7_AyH6RPEg9LqYdpf80kW9hpxNpX_9ucyZU2eB4oSPsgPaMeZPUysB7MVV2Hj7Xt78JCPo2v7lzqTOOMw9jCdGZz9epH95r73S7QylAtq8m9RJbiPHbLZvjuPOHnxD_RuUhNK-UtUZHqEPDTowFPEwo-OWrAvWzzgtXFr3tvpE7cv1YX454omY-ilRYXgZ_EMGfjmUO9tqyUiSuxiukglyrQfC-6JCBM6LlvHyZN7Uf_8DmYsDUN1LlObyiyP"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Category Filters -->
+<section class="mb-12 flex flex-wrap gap-3 items-center">
+<button class="px-6 py-3 bg-primary text-on-primary rounded-full font-bold text-sm">All Stories</button>
+<button class="px-6 py-3 bg-surface-container-low hover:bg-surface-container-high transition-colors text-on-surface-variant rounded-full font-semibold text-sm">Destination Guides</button>
+<button class="px-6 py-3 bg-surface-container-low hover:bg-surface-container-high transition-colors text-on-surface-variant rounded-full font-semibold text-sm">Travel Tips</button>
+<button class="px-6 py-3 bg-surface-container-low hover:bg-surface-container-high transition-colors text-on-surface-variant rounded-full font-semibold text-sm">Culinary Journeys</button>
+<button class="px-6 py-3 bg-surface-container-low hover:bg-surface-container-high transition-colors text-on-surface-variant rounded-full font-semibold text-sm">Business Travel</button>
+</section>
+<!-- Minimalist Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+<!-- Card 1 -->
+<article class="flex flex-col">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-surface-container-high shadow-sm hover:shadow-lg transition-shadow duration-300">
+<img alt="Venice Italy" class="w-full h-full object-cover" data-alt="Wide angle view of a classic Venetian canal with historic buildings reflected in shimmering blue water under bright daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLx_ONnQrF3pr8cLELQzhjN8NgPtXIXaH4TUBUJjH2bmluGZp8JC-qWxGqFRcegBvopGxV8V9ZjMZCbLoLj_tbZt4gU9n0_w9h63yHFzl5PMZb291fC2yDZRuS7zV9h-RDZUQtuzTEJTz6qRLbey2BDIFSsOpAv7qSiqzWgtDqK1MBoluWC1e6h4c7ghUAw14gX_BUp_FKW0lRuErHM2_2ZY1Ptij7M8veGL7w631QnaAuhXK3kuH-nG9vjIHBOb0lkSgRnjvh-2Cv"/>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Culture</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span class="text-xs font-medium text-on-surface-variant">5 min read</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-3 leading-tight hover:text-primary transition-colors cursor-pointer">
+                    Rediscovering the Hidden Canals of Venice
+                </h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                    Beyond the crowds of St. Mark's lies a labyrinth of quiet waterways and artisan workshops that reveal the true soul of the city.
+                </p>
+<a class="mt-auto flex items-center gap-2 text-sm font-bold text-primary group" href="#">
+                    Read Story
+                    <span class="material-symbols-outlined text-sm transform transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Card 2 -->
+<article class="flex flex-col">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-surface-container-high shadow-sm hover:shadow-lg transition-shadow duration-300">
+<img alt="African Safari" class="w-full h-full object-cover" data-alt="Lush green savanna landscape in East Africa with acacia trees and a distant mountain range under a soft hazy sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDA3GBQos6N2548rsWAsPXXxC0Pj1aOgh5YtyRiLhDL4JHInBDkSKkdx6ogTKdv73CA1RsOIA_jWC2DRxQa85eyfNNh_NFTtA7t0c9GGFfdVlprlD-r8yCdgMhEUh1HKM2hZCjyDW8RBps-vNIfyk1AaGsisyiqWwQ3U0fv1DRwMTvB2yfEzMchY3nQogurnhSGZinHl6Yrd09Z2p0YtCukm5qIFNgnqJsnYK0ugnQsxQE2PmkTWzqcFqDsLaHnHXKy0BCiTrU6StK1"/>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Adventure</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span class="text-xs font-medium text-on-surface-variant">8 min read</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-3 leading-tight hover:text-primary transition-colors cursor-pointer">
+                    Luxury Safaris: Redefining the Wild Experience
+                </h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                    How high-end eco-lodges are combining conservation with unparalleled comfort in the heart of the Serengeti.
+                </p>
+<a class="mt-auto flex items-center gap-2 text-sm font-bold text-primary group" href="#">
+                    Read Story
+                    <span class="material-symbols-outlined text-sm transform transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Card 3 -->
+<article class="flex flex-col">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-surface-container-high shadow-sm hover:shadow-lg transition-shadow duration-300">
+<img alt="Japanese Architecture" class="w-full h-full object-cover" data-alt="Minimalist Japanese temple garden with meticulously raked sand, stone sculptures, and a single vibrant maple tree in autumn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1YjasHNxxIGpnOtbl0MHLsIiB-tNja6CKEaKH3iPkuRt2pdg9PzWktqbXxUefK6D_Ali5OfcXeAb0uMiqVOARaR4BIFzu7oz0vxytuLmwfl-3E4488tZkqig34Ysi12X1xkYn3SBTB3u5GPV_uZ2xpGlJM1eDAw9X6BpIKu98ic5HUChCNLoY96l6wbBaHq3DXCBYqGrX19vL-Umee1kXF8kyP8qYH0xLyG6f_zmwYjNxq0qnWjeJyM2T_e3GSgQsd4YNJhSOfo6Y"/>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Design</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span class="text-xs font-medium text-on-surface-variant">6 min read</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-3 leading-tight hover:text-primary transition-colors cursor-pointer">
+                    The Art of Slow Travel in Rural Kyoto
+                </h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                    Finding peace in the traditional ryokans and quiet temples of Japan's ancient capital during the off-season.
+                </p>
+<a class="mt-auto flex items-center gap-2 text-sm font-bold text-primary group" href="#">
+                    Read Story
+                    <span class="material-symbols-outlined text-sm transform transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Card 4 -->
+<article class="flex flex-col">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-surface-container-high shadow-sm hover:shadow-lg transition-shadow duration-300">
+<img alt="Portrait of traveler" class="w-full h-full object-cover" data-alt="Young man with camera walking through a vibrant market street in Marrakech, sunbeams filtering through overhead slats" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkHgpYmV8NUssOTqyVOkNeSCWMWDzqpBZEmGpSDPGZnOlxlOLUJfMucChGYo-Rw1wx7tR4EPR7MlfuLmjkZlFGsWJc1Ue2YnRAiBTPAape-djECld9weZvIJ1RGwBdBfmX_TIuASMmCtGQ7OTXxWH28GpIvF630aTPhsOrzFlkd9311uNMXjRxUV4hJWox3EOZTXbZDdicG3bGdqyqUqqeupUoA7kqjczXaOVKWo3MyyTtJYSxtiaJOxxznQT2xUsJKumiV8x5HV61"/>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Photography</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span class="text-xs font-medium text-on-surface-variant">4 min read</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-3 leading-tight hover:text-primary transition-colors cursor-pointer">
+                    Capturing Light: A Guide for Travel Photographers
+                </h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                    Professional tips on how to use natural light to bring your travel memories to life, no matter where you are.
+                </p>
+<a class="mt-auto flex items-center gap-2 text-sm font-bold text-primary group" href="#">
+                    Read Story
+                    <span class="material-symbols-outlined text-sm transform transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Card 5 -->
+<article class="flex flex-col">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-surface-container-high shadow-sm hover:shadow-lg transition-shadow duration-300">
+<img alt="Luxury Resort" class="w-full h-full object-cover" data-alt="High-end tropical resort pool with infinity edge overlooking a crystal clear turquoise ocean, palm trees silhouetted against the bright day" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDECgnEjcdA9QtK3jxZfTBG-nNTN5UmsRAGQDGk0CTHlWa2_jnq_DsZZmzR73m87atKDHwR6-etdJahWggoAS5CQXDxJcLHdovlD2QbknRKTGMwn7NiFsgYueAiBWoHKpHo8b2yvLicU2HZNe9x7vapr7WBkdUyKpSkBLj-rg6fZ0p6wjGtU4XOy8E9vhEn1E_22-PMKtKGsYlUZoKANHIKZDOqPMSDbgypw6NZf-aP8QukWAicZpRqqkOY89VejNsx1KTFBgwSFkSV"/>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Hospitality</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span class="text-xs font-medium text-on-surface-variant">7 min read</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-3 leading-tight hover:text-primary transition-colors cursor-pointer">
+                    Why Direct Booking is the Future of Luxury
+                </h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                    Exploring the personalized perks and concierge services available when you bypass third-party platforms.
+                </p>
+<a class="mt-auto flex items-center gap-2 text-sm font-bold text-primary group" href="#">
+                    Read Story
+                    <span class="material-symbols-outlined text-sm transform transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Card 6 -->
+<article class="flex flex-col">
+<div class="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-surface-container-high shadow-sm hover:shadow-lg transition-shadow duration-300">
+<img alt="Forest Hike" class="w-full h-full object-cover" data-alt="Sunlight streaming through tall pine trees in a misty morning forest, atmospheric light rays and deep green ferns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSbsy5IGzvPiRkkg0h6K3joyK9p9N7O_S7mYuTREy-ayvLS806LJXOTtsnEFOpi6WACVOOTTz5ME2f_IZImCzJUy0Vj2tNpXmw4k43arTMySrm2fAZD_kVJP_2tW_5_ZmB0vPwmLwdLBWCoaRXRel7ne0Gqu4Qcpjc4KXANe7_jNkCTEPZpGF9Pqd4nshWOnI4eZ2Ca3XuU61ZEpWKkAuKw_CkCw_0PviMXpoPBo5piKM4Uj5o6_QIzn7KloXCQsJV_SytVyCKLT3a"/>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Wellness</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span class="text-xs font-medium text-on-surface-variant">6 min read</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-3 leading-tight hover:text-primary transition-colors cursor-pointer">
+                    Forest Bathing: The New Way to Recharge
+                </h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+                    How nature-focused retreats are becoming the ultimate antidote to the fast-paced digital nomad lifestyle.
+                </p>
+<a class="mt-auto flex items-center gap-2 text-sm font-bold text-primary group" href="#">
+                    Read Story
+                    <span class="material-symbols-outlined text-sm transform transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+</section>
+<!-- Pagination -->
+<div class="mt-24 flex justify-center items-center gap-2">
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-on-primary font-bold">1</button>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors">2</button>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors">3</button>
+<span class="mx-2 text-outline-variant">...</span>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors">12</button>
+<button class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</main>
+<!-- Newsletter Section (Custom) -->
+<section class="bg-surface-container-low py-20">
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="font-headline text-3xl font-bold mb-4">Join the Voyage Club</h2>
+<p class="text-on-surface-variant leading-relaxed">Receive monthly inspiration, exclusive flight deals, and curated destination guides directly in your inbox.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<input class="flex-1 bg-surface-container-lowest border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary" placeholder="Your email address" type="email"/>
+<button class="bg-primary text-on-primary font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all">Subscribe Now</button>
+</div>
+</div>
+</section>
+<!-- Footer (Shared Component) -->
+<footer class="bg-slate-50 dark:bg-slate-950 full-width">
+<div class="w-full py-16 px-8 flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="font-headline font-bold text-lg text-blue-700 dark:text-blue-400">ACE Voyages</span>
+<p class="font-inter text-xs tracking-wide text-slate-500 dark:text-slate-400">© 2024 ACE Voyages. Your Journey, Tailored.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-inter text-xs tracking-wide text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-300 transition-all" href="#">Privacy Policy</a>
+<a class="font-inter text-xs tracking-wide text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-300 transition-all" href="#">Terms of Service</a>
+<a class="font-inter text-xs tracking-wide text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-300 transition-all" href="#">Travel Insurance</a>
+<a class="font-inter text-xs tracking-wide text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-300 transition-all" href="#">Sitemap</a>
+</div>
+<div class="flex gap-4">
+<a class="text-slate-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="public">public</span>
+</a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+</a>
+</div>
+</div>
+</footer>
+</body></html>

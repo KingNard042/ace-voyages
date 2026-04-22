@@ -1,5 +1,57 @@
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 
+// ─── Blog ─────────────────────────────────────────────────────────────────────
+
+export interface BlogPost {
+  post_id: string
+  title: string
+  slug: string
+  excerpt: string | null
+  hero_image_url: string | null
+  body_json: Record<string, unknown> | null
+  body_text: string | null
+  category: string | null
+  is_featured: boolean
+  is_published: boolean
+  published_at: string | null
+  created_at: string
+}
+
+export async function getPublishedBlogPosts(): Promise<BlogPost[]> {
+  try {
+    const supabase = createServerSupabaseClient()
+    const { data, error } = await supabase
+      .from('blog_posts')
+      .select(
+        'post_id, title, slug, excerpt, hero_image_url, body_text, category, is_featured, is_published, published_at, created_at',
+      )
+      .eq('is_published', true)
+      .order('published_at', { ascending: false })
+
+    if (error || !data?.length) return []
+    return data as BlogPost[]
+  } catch {
+    return []
+  }
+}
+
+export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> {
+  try {
+    const supabase = createServerSupabaseClient()
+    const { data, error } = await supabase
+      .from('blog_posts')
+      .select('*')
+      .eq('slug', slug)
+      .eq('is_published', true)
+      .single()
+
+    if (error || !data) return null
+    return data as BlogPost
+  } catch {
+    return null
+  }
+}
+
 export interface Tour {
   tour_id: string
   slug: string

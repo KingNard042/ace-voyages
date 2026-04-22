@@ -27,7 +27,7 @@ const ACCESS_MATRIX: Record<AdminRole, AdminFeature[]> = {
     'visa_services', 'team', 'reports', 'newsletter', 'notifications',
   ],
   agent_admin: [
-    'dashboard', 'leads', 'bookings', 'notifications',
+    'dashboard', 'leads', 'bookings', 'blog', 'notifications',
   ],
 }
 
