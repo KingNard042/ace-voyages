@@ -126,7 +126,7 @@ function renderNode(node: TipTapNode, index: number): React.ReactNode {
       return (
         <blockquote
           key={key}
-          className="my-8 border-l-4 border-[#D4A017] pl-6 py-1"
+          className="my-8 border-l-2 border-[#1B3A6B]/25 pl-6 py-1"
         >
           <div className="text-[1.125rem] italic leading-relaxed text-[#4B5563]">
             {node.content?.map((child, i) => {

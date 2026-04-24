@@ -4,7 +4,9 @@
       "Bash(node -e ' *)",
       "Bash(npm run *)",
       "Bash(npx tsc *)",
-      "Bash(node -e \"const s = require\\('@supabase/ssr'\\); console.log\\(Object.keys\\(s\\)\\)\")"
+      "Bash(node -e \"const s = require\\('@supabase/ssr'\\); console.log\\(Object.keys\\(s\\)\\)\")",
+      "Bash(npx impeccable *)",
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"travel tour package detail page premium editorial warm\" --design-system -p \"ACE Voyages\" -f markdown)"
     ]
   },
   "enableAllProjectMcpServers": true,

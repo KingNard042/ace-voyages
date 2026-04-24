@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { MapPin, Clock } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import Badge from './Badge'
@@ -40,7 +41,7 @@ export default function TourCard({
           className
         )}
       >
-        <div className="relative aspect-[3/2] overflow-hidden">
+        <Link href={`/tours/${slug}`} className="relative block aspect-[3/2] overflow-hidden">
           <Image
             src={image}
             alt={name}
@@ -53,15 +54,17 @@ export default function TourCard({
               <Badge label={badge} variant="sale" />
             </div>
           )}
-        </div>
+        </Link>
 
         <div className="flex flex-col gap-3 p-5">
-          <h3
-            className="line-clamp-2 text-lg font-bold leading-snug text-[#1A1A2E]"
-            style={{ fontFamily: 'var(--font-manrope, Manrope, sans-serif)' }}
-          >
-            {name}
-          </h3>
+          <Link href={`/tours/${slug}`}>
+            <h3
+              className="line-clamp-2 text-lg font-bold leading-snug text-[#1A1A2E] hover:text-[#1B3A6B] transition-colors"
+              style={{ fontFamily: 'var(--font-manrope, Manrope, sans-serif)' }}
+            >
+              {name}
+            </h3>
+          </Link>
 
           <div className="flex flex-wrap items-center gap-3 text-sm text-[#6B7280]">
             <span className="flex items-center gap-1">
@@ -84,9 +87,17 @@ export default function TourCard({
                 ₦{price.toLocaleString('en-NG')}
               </p>
             </div>
-            <Button size="sm" onClick={() => setModalOpen(true)}>
-              Book Now
-            </Button>
+            <div className="flex items-center gap-2">
+              <Link
+                href={`/tours/${slug}`}
+                className="text-xs font-semibold text-[#1B3A6B] hover:underline"
+              >
+                Details
+              </Link>
+              <Button size="sm" onClick={() => setModalOpen(true)}>
+                Book Now
+              </Button>
+            </div>
           </div>
         </div>
       </article>

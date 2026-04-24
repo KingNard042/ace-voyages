@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { MapPin, Clock } from 'lucide-react'
 import Button from '@/components/ui/Button'
 import TourLeadModal from '@/components/ui/TourLeadModal'
@@ -30,13 +31,60 @@ interface ModalState {
   slug: string
 }
 
+const CATEGORY_ORDER = ['leisure', 'honeymoon', 'corporate', 'adventure']
+
 export default function ToursGrid({ tours }: { tours: Tour[] }) {
   const [modal, setModal] = useState<ModalState | null>(null)
+  const [activeCategory, setActiveCategory] = useState<string>('all')
+
+  const availableCategories = CATEGORY_ORDER.filter((cat) =>
+    tours.some((t) => t.category === cat)
+  )
+
+  const filtered =
+    activeCategory === 'all' ? tours : tours.filter((t) => t.category === activeCategory)
 
   return (
     <>
+      {/* ── Category filter chips ─────────────────────────────────────── */}
+      {availableCategories.length > 1 && (
+        <div className="mb-8 flex flex-wrap gap-2">
+          <button
+            onClick={() => setActiveCategory('all')}
+            className={[
+              'rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200',
+              activeCategory === 'all'
+                ? 'bg-[#1B3A6B] text-white shadow-sm'
+                : 'bg-white text-[#6B7280] hover:bg-[#F3F4F6] hover:text-[#1A1A2E]',
+            ].join(' ')}
+          >
+            All ({tours.length})
+          </button>
+          {availableCategories.map((cat) => {
+            const color = CATEGORY_COLORS[cat] ?? { bg: '#F3F4F6', text: '#6B7280' }
+            const label = CATEGORY_LABELS[cat] ?? cat
+            const count = tours.filter((t) => t.category === cat).length
+            const isActive = activeCategory === cat
+            return (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200"
+                style={
+                  isActive
+                    ? { backgroundColor: color.text, color: '#fff' }
+                    : { backgroundColor: color.bg, color: color.text }
+                }
+              >
+                {label} ({count})
+              </button>
+            )
+          })}
+        </div>
+      )}
+
       <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
-        {tours.map((tour) => {
+        {filtered.map((tour) => {
           const catColor =
             CATEGORY_COLORS[tour.category ?? ''] ?? { bg: '#F3F4F6', text: '#6B7280' }
           const catLabel = CATEGORY_LABELS[tour.category ?? '']
@@ -48,7 +96,7 @@ export default function ToursGrid({ tours }: { tours: Tour[] }) {
               className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_2px_16px_rgba(0,0,0,0.06)] transition-shadow duration-300 hover:shadow-[0_12px_40px_rgba(26,28,28,0.12)]"
             >
               {/* Image */}
-              <div className="relative aspect-[3/2] overflow-hidden">
+              <Link href={`/tours/${tour.slug}`} className="relative block aspect-[3/2] overflow-hidden">
                 <Image
                   src={tour.hero_image_url ?? FALLBACK_IMAGE}
                   alt={tour.title}
@@ -72,16 +120,18 @@ export default function ToursGrid({ tours }: { tours: Tour[] }) {
                     Featured
                   </span>
                 )}
-              </div>
+              </Link>
 
               {/* Content */}
               <div className="flex flex-1 flex-col gap-3 p-5">
-                <h2
-                  className="line-clamp-2 text-lg font-bold leading-snug text-[#1A1A2E]"
-                  style={{ fontFamily: 'var(--font-manrope, Manrope, sans-serif)' }}
-                >
-                  {tour.title}
-                </h2>
+                <Link href={`/tours/${tour.slug}`}>
+                  <h2
+                    className="line-clamp-2 text-lg font-bold leading-snug text-[#1A1A2E] transition-colors hover:text-[#1B3A6B]"
+                    style={{ fontFamily: 'var(--font-manrope, Manrope, sans-serif)' }}
+                  >
+                    {tour.title}
+                  </h2>
+                </Link>
 
                 <div className="flex flex-wrap items-center gap-3 text-sm text-[#6B7280]">
                   <span className="flex items-center gap-1.5">
@@ -112,14 +162,22 @@ export default function ToursGrid({ tours }: { tours: Tour[] }) {
                     </p>
                     <p className="text-[10px] text-[#9CA3AF]">per person</p>
                   </div>
-                  <Button
-                    size="sm"
-                    onClick={() =>
-                      setModal({ tourName: tour.title, destination, slug: tour.slug })
-                    }
-                  >
-                    Book Now
-                  </Button>
+                  <div className="flex items-center gap-2">
+                    <Link
+                      href={`/tours/${tour.slug}`}
+                      className="text-xs font-semibold text-[#1B3A6B] hover:underline"
+                    >
+                      Details
+                    </Link>
+                    <Button
+                      size="sm"
+                      onClick={() =>
+                        setModal({ tourName: tour.title, destination, slug: tour.slug })
+                      }
+                    >
+                      Book Now
+                    </Button>
+                  </div>
                 </div>
               </div>
             </article>

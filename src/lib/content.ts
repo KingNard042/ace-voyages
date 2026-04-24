@@ -66,6 +66,22 @@ export interface Tour {
   short_description: string | null
 }
 
+export interface TourDeparture {
+  departure_id: string
+  departure_date: string
+  max_guests: number
+  guests_booked: number
+}
+
+export interface TourDetail extends Tour {
+  full_description: string | null
+  whats_included: string[] | null
+  highlights: string[] | null
+  gallery_urls: string[] | null
+  max_guests: number
+  departures: TourDeparture[]
+}
+
 export interface Testimonial {
   testimonial_id: string
   customer_name: string
@@ -105,6 +121,37 @@ export async function getAllTours(): Promise<Tour[]> {
     return data
   } catch {
     return []
+  }
+}
+
+export async function getTourBySlug(slug: string): Promise<TourDetail | null> {
+  try {
+    const supabase = createServerSupabaseClient()
+    const { data, error } = await supabase
+      .from('tours')
+      .select(`
+        tour_id, slug, title, destination_city, destination_country,
+        price_naira, duration_days, hero_image_url, is_featured, category,
+        short_description, full_description, whats_included, highlights,
+        gallery_urls, max_guests,
+        tour_departures (
+          departure_id, departure_date, max_guests, guests_booked
+        )
+      `)
+      .eq('slug', slug)
+      .eq('is_active', true)
+      .single()
+
+    if (error || !data) return null
+
+    const { tour_departures, ...rest } = data as typeof data & { tour_departures: TourDeparture[] }
+    const departures = (tour_departures ?? [])
+      .filter((d) => new Date(d.departure_date) >= new Date())
+      .sort((a, b) => a.departure_date.localeCompare(b.departure_date))
+
+    return { ...rest, departures } as TourDetail
+  } catch {
+    return null
   }
 }
 

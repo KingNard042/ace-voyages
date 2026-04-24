@@ -8,7 +8,6 @@ import {
   Heart,
   Users,
   ShieldCheck,
-  Award,
   Zap,
   Star,
 } from 'lucide-react'
@@ -108,10 +107,9 @@ const FALLBACK_TESTIMONIALS = [
 ]
 
 const WHY_US = [
-  { icon: Users, stat: '1,000+', label: 'Happy Travellers' },
-  { icon: ShieldCheck, stat: '100%', label: 'Transparent Pricing' },
-  { icon: Award, stat: 'Bespoke', label: 'Personalised Planning' },
-  { icon: Zap, stat: '5–15 min', label: 'Booking Confirmation' },
+  { icon: Users, stat: '1,000+', label: 'Nigerians Served' },
+  { icon: ShieldCheck, stat: '98%', label: 'Visa Success Rate' },
+  { icon: Zap, stat: '<15 min', label: 'Booking Confirmed' },
 ]
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
@@ -290,7 +288,7 @@ export default async function HomePage() {
               Built for Nigerians — we understand exactly what matters to you when you travel.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
             {WHY_US.map(({ icon: Icon, stat, label }) => (
               <div key={label} className="flex flex-col items-center gap-3 text-center">
                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10">

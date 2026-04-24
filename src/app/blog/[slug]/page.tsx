@@ -167,16 +167,35 @@ export default async function BlogPostPage({
       {/* ── Article Body ──────────────────────────────────────────────────── */}
       <section className="bg-white py-14 lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+          {/* Breadcrumb */}
+          <nav aria-label="Breadcrumb" className="mb-10">
+            <ol className="flex flex-wrap items-center gap-1.5 text-sm text-[#9CA3AF]">
+              <li>
+                <Link href="/" className="transition-colors hover:text-[#1B3A6B]">
+                  Home
+                </Link>
+              </li>
+              <li aria-hidden="true">/</li>
+              <li>
+                <Link href="/blog" className="transition-colors hover:text-[#1B3A6B]">
+                  Blog
+                </Link>
+              </li>
+              <li aria-hidden="true">/</li>
+              <li className="line-clamp-1 max-w-[280px] font-medium text-[#1A1A2E] sm:max-w-none">
+                {post.title}
+              </li>
+            </ol>
+          </nav>
+
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_300px]">
 
             {/* Article content */}
             <article>
               {/* Excerpt / lede */}
               {post.excerpt && (
-                <p
-                  className="mb-10 text-[1.175rem] font-medium leading-relaxed text-[#4B5563] lg:text-[1.25rem]"
-                  style={{ borderLeft: '4px solid #D4A017', paddingLeft: '1.25rem' }}
-                >
+                <p className="mb-10 rounded-xl bg-[#FDF8EE] px-6 py-5 text-[1.175rem] font-medium leading-relaxed text-[#4B5563] lg:text-[1.25rem]">
                   {post.excerpt}
                 </p>
               )}
