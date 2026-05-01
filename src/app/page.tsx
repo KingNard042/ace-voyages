@@ -12,6 +12,7 @@ import {
   Star,
 } from 'lucide-react'
 import Button from '@/components/ui/Button'
+import HeroSection from '@/components/ui/HeroSection'
 import SectionHeader from '@/components/ui/SectionHeader'
 import TourCard from '@/components/ui/TourCard'
 import WhatsAppButton from '@/components/ui/WhatsAppButton'
@@ -145,54 +146,7 @@ export default async function HomePage() {
   return (
     <>
       {/* ── 1. HERO ─────────────────────────────────────────────────────── */}
-      <section
-        className="relative flex min-h-screen items-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1920&q=80')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-[#0c1a3a]/68" />
-
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
-          <p
-            className="text-xl text-[#D4A017] sm:text-2xl"
-            style={{ fontFamily: 'var(--font-satisfy, cursive)' }}
-          >
-            Your Journey Awaits
-          </p>
-          <h1
-            className="mt-3 max-w-2xl text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl xl:text-6xl"
-            style={{ fontFamily: 'var(--font-manrope, Manrope, sans-serif)' }}
-          >
-            Explore the World,
-            <br />
-            One Trip at a Time
-          </h1>
-          <p className="mt-5 max-w-lg text-base leading-relaxed text-white/75 sm:text-lg">
-            Nigeria&apos;s most trusted travel partner for flights, curated tours, visa assistance,
-            and holiday packages that go beyond the ordinary.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link href="/tours">
-              <Button variant="gold" size="lg">
-                Book a Tour
-              </Button>
-            </Link>
-            <Link href="/contact">
-              <Button
-                variant="outlined"
-                size="lg"
-                className="text-white ring-white/35 hover:bg-white/10"
-              >
-                Contact Us
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <HeroSection />
 
       {/* ── 2. PARTNERS STRIP ───────────────────────────────────────────── */}
       <section className="bg-white py-10">

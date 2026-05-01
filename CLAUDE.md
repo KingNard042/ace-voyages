@@ -4,3 +4,6 @@ This repository is indexed with Graphify. Before writing code, planning architec
 
 # Brand & Design Enforcement
 When creating or modifying UI components, you MUST strictly adhere to the brand guidelines defined in `PROJECT.md`and `DESIGN(1).md`(for the customer facing website), use `DESIGN.md` for the admin facing website. Never use generic styles or default browser appearances. Always use Tailwind utility classes to implement the Primary Blue (#1B3A6B), Gold Accent (#D4A017), proper typography (Inter), and premium interactive states (hover effects, shadows, rounded corners).
+
+# UI/UX Enforcement
+Always use the skill of `ui-ux-pro-max` to generate or modify any UI components, ensure that the generated or modified UI components are responsive and accessible, and follow the brand guidelines defined in `PROJECT.md`and `DESIGN(1).md`(for the customer facing website), use `DESIGN.md` for the admin facing website. Never use generic styles or default browser appearances. Always use Tailwind utility classes to implement the Primary Blue (#1B3A6B), Gold Accent (#D4A017), proper typography (Inter), and premium interactive states (hover effects, shadows, rounded corners). 
